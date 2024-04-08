@@ -1,2 +1,3 @@
 # no incluir la carpeta con los datos
-/dataset
+dataset
+csvFiles
