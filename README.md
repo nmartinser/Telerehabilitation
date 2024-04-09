@@ -1,6 +1,6 @@
 <h1 align="center"> Inteligencia Artificial aplicada a la Telerehabilitación </h1>
 
-![Gestures](../images/gestures.png)
+![Gestures](/images/gestures.png)
 
 ## Descripción del proyecto
 La tele-rehabilitación, facilitada por avances tecnológicos, ofrece una solución prometedora al permitir
