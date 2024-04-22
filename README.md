@@ -1,3 +1,10 @@
+## 📁 Descripción del repositorio
+
+### 📓notebooks
+En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene dos archivos:
+1. leer_dataset: se encarga de leer los datos de los archivos y guardarlos en csv
+2. analisis_datos: calcula los ángulos entre los keypoints y presenta algunas gráficas para visualizar la información que guardan los datos
+
 <h1 align="center"> Inteligencia Artificial aplicada a la Telerehabilitación </h1>
 
 ![Gestures](/images/gestures.png)
@@ -10,6 +17,5 @@ garantizar una mayor continuidad en el tratamiento. La evolución hacia un model
 como una extensión del médico puede ayudar a reducir la sobrecarga de trabajo, y la Inteligencia Artificial
 desempeña un papel crucial al permitir la evaluación de las actividades y el diseño de planes personalizados.
 
-## 📁 Descripción del repositorio
 
 
