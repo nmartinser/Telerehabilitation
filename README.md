@@ -1,11 +1,11 @@
+<h1 align="center"> Inteligencia Artificial aplicada a la Telerehabilitación </h1>
+
 ## 📁 Descripción del repositorio
 
 ### 📓notebooks
 En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene dos archivos:
 1. leer_dataset: se encarga de leer los datos de los archivos y guardarlos en csv
 2. analisis_datos: calcula los ángulos entre los keypoints y presenta algunas gráficas para visualizar la información que guardan los datos
-
-<h1 align="center"> Inteligencia Artificial aplicada a la Telerehabilitación </h1>
 
 ![Gestures](/images/gestures.png)
 
