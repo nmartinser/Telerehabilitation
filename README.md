@@ -4,8 +4,8 @@
 
 ### 📓notebooks
 En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene dos archivos:
-1. leer_dataset: se encarga de leer los datos de los archivos y guardarlos en csv
-2. analisis_datos: calcula los ángulos entre los keypoints y presenta algunas gráficas para visualizar la información que guardan los datos
+1. leer_dataset: se encarga de leer los datos de los archivos y guardarlos en csv. Además se encarga de calcular los ángulos entre los keypoints
+2. analisis_datos: presenta algunas gráficas para visualizar la información de los csv anteriores
 
 ![Gestures](/images/gestures.png)
 
