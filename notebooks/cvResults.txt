@@ -6,39 +6,39 @@ Distribution of class labels before resampling Counter({1: 8, 2: 6})
 Distribution of class labels after resampling Counter({1: 6, 2: 6})
 
 	 Modelo: KNeighborsClassifier
-	1.00 accuracy with a standard deviation of 0.00
+	0.90 accuracy with a standard deviation of 0.20
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	1.00 accuracy with a standard deviation of 0.00
-	0.70 recall with a standard deviation of 0.40
+	0.87 accuracy with a standard deviation of 0.27
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: GaussianNB
-	1.00 accuracy with a standard deviation of 0.00
-	1.00 recall with a standard deviation of 0.00
+	0.77 accuracy with a standard deviation of 0.29
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: SVC
-	1.00 accuracy with a standard deviation of 0.00
+	0.77 accuracy with a standard deviation of 0.29
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
-	0.93 accuracy with a standard deviation of 0.13
-	1.00 recall with a standard deviation of 0.00
+	0.90 accuracy with a standard deviation of 0.20
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: LogisticRegression
-	1.00 accuracy with a standard deviation of 0.00
+	0.90 accuracy with a standard deviation of 0.20
 	1.00 recall with a standard deviation of 0.00
 
 - MODELO DE RESAMPLING: EditedNearestNeighbours
 Distribution of class labels before resampling Counter({1: 8, 2: 6})
-Distribution of class labels after resampling Counter({1: 8, 2: 6})
+Distribution of class labels after resampling Counter({1: 6, 2: 6})
 
 	 Modelo: KNeighborsClassifier
-	1.00 accuracy with a standard deviation of 0.00
+	0.90 accuracy with a standard deviation of 0.20
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	0.93 accuracy with a standard deviation of 0.13
+	0.87 accuracy with a standard deviation of 0.16
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: GaussianNB
@@ -46,19 +46,18 @@ Distribution of class labels after resampling Counter({1: 8, 2: 6})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: SVC
-	1.00 accuracy with a standard deviation of 0.00
+	0.90 accuracy with a standard deviation of 0.20
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
 	1.00 accuracy with a standard deviation of 0.00
-	1.00 recall with a standard deviation of 0.00
+	0.90 recall with a standard deviation of 0.20
 
 	 Modelo: LogisticRegression
-	1.00 accuracy with a standard deviation of 0.00
+	0.90 accuracy with a standard deviation of 0.20
 	1.00 recall with a standard deviation of 0.00
-Skipping ADASYN due to ERROR: Not any neigbours belong to the majority class. This case will induce a NaN case with a division by zero. ADASYN is not suited for this specific dataset. Use SMOTE instead.
 
-- MODELO DE RESAMPLING: SMOTE
+- MODELO DE RESAMPLING: ADASYN
 Distribution of class labels before resampling Counter({1: 8, 2: 6})
 Distribution of class labels after resampling Counter({1: 8, 2: 8})
 
@@ -67,8 +66,8 @@ Distribution of class labels after resampling Counter({1: 8, 2: 8})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	0.95 accuracy with a standard deviation of 0.10
-	1.00 recall with a standard deviation of 0.00
+	1.00 accuracy with a standard deviation of 0.00
+	0.90 recall with a standard deviation of 0.20
 
 	 Modelo: GaussianNB
 	1.00 accuracy with a standard deviation of 0.00
@@ -84,6 +83,34 @@ Distribution of class labels after resampling Counter({1: 8, 2: 8})
 
 	 Modelo: LogisticRegression
 	1.00 accuracy with a standard deviation of 0.00
+	1.00 recall with a standard deviation of 0.00
+
+- MODELO DE RESAMPLING: SMOTE
+Distribution of class labels before resampling Counter({1: 8, 2: 6})
+Distribution of class labels after resampling Counter({1: 8, 2: 8})
+
+	 Modelo: KNeighborsClassifier
+	0.93 accuracy with a standard deviation of 0.13
+	1.00 recall with a standard deviation of 0.00
+
+	 Modelo: DecisionTreeClassifier
+	0.93 accuracy with a standard deviation of 0.13
+	0.90 recall with a standard deviation of 0.20
+
+	 Modelo: GaussianNB
+	0.93 accuracy with a standard deviation of 0.13
+	1.00 recall with a standard deviation of 0.00
+
+	 Modelo: SVC
+	0.93 accuracy with a standard deviation of 0.13
+	1.00 recall with a standard deviation of 0.00
+
+	 Modelo: RandomForestClassifier
+	1.00 accuracy with a standard deviation of 0.00
+	1.00 recall with a standard deviation of 0.00
+
+	 Modelo: LogisticRegression
+	0.93 accuracy with a standard deviation of 0.13
 	1.00 recall with a standard deviation of 0.00
 
 - MODELO DE RESAMPLING: SMOTETomek
@@ -91,7 +118,7 @@ Distribution of class labels before resampling Counter({1: 8, 2: 6})
 Distribution of class labels after resampling Counter({1: 8, 2: 8})
 
 	 Modelo: KNeighborsClassifier
-	1.00 accuracy with a standard deviation of 0.00
+	0.93 accuracy with a standard deviation of 0.13
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
@@ -103,27 +130,27 @@ Distribution of class labels after resampling Counter({1: 8, 2: 8})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: SVC
-	1.00 accuracy with a standard deviation of 0.00
+	0.93 accuracy with a standard deviation of 0.13
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
-	1.00 accuracy with a standard deviation of 0.00
+	0.93 accuracy with a standard deviation of 0.13
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: LogisticRegression
-	1.00 accuracy with a standard deviation of 0.00
+	0.93 accuracy with a standard deviation of 0.13
 	1.00 recall with a standard deviation of 0.00
 
 - MODELO DE RESAMPLING: SMOTEENN
 Distribution of class labels before resampling Counter({1: 8, 2: 6})
-Distribution of class labels after resampling Counter({1: 8, 2: 8})
+Distribution of class labels after resampling Counter({2: 7, 1: 6})
 
 	 Modelo: KNeighborsClassifier
 	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	0.90 accuracy with a standard deviation of 0.20
+	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: GaussianNB
@@ -164,8 +191,8 @@ Distribution of class labels after resampling Counter({1: 11, 2: 3})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	0.93 accuracy with a standard deviation of 0.13
-	0.93 recall with a standard deviation of 0.13
+	0.90 accuracy with a standard deviation of 0.20
+	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: GaussianNB
 	1.00 accuracy with a standard deviation of 0.00
@@ -176,8 +203,8 @@ Distribution of class labels after resampling Counter({1: 11, 2: 3})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
-	0.93 accuracy with a standard deviation of 0.13
-	1.00 recall with a standard deviation of 0.00
+	1.00 accuracy with a standard deviation of 0.00
+	0.90 recall with a standard deviation of 0.20
 
 	 Modelo: LogisticRegression
 	1.00 accuracy with a standard deviation of 0.00
@@ -205,8 +232,8 @@ Distribution of class labels after resampling Counter({1: 11, 2: 11})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
-	0.96 accuracy with a standard deviation of 0.08
-	0.93 recall with a standard deviation of 0.13
+	0.95 accuracy with a standard deviation of 0.10
+	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: LogisticRegression
 	1.00 accuracy with a standard deviation of 0.00
@@ -221,8 +248,8 @@ Distribution of class labels after resampling Counter({1: 11, 2: 11})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	0.96 accuracy with a standard deviation of 0.08
-	1.00 recall with a standard deviation of 0.00
+	0.95 accuracy with a standard deviation of 0.10
+	0.90 recall with a standard deviation of 0.20
 
 	 Modelo: GaussianNB
 	1.00 accuracy with a standard deviation of 0.00
@@ -233,7 +260,7 @@ Distribution of class labels after resampling Counter({1: 11, 2: 11})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
-	1.00 accuracy with a standard deviation of 0.00
+	0.95 accuracy with a standard deviation of 0.10
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: LogisticRegression
@@ -261,7 +288,7 @@ Distribution of class labels after resampling Counter({1: 11, 2: 11})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
-	0.96 accuracy with a standard deviation of 0.08
+	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: LogisticRegression
@@ -275,168 +302,168 @@ Distribution of class labels before resampling Counter({2: 27, 1: 19})
 Distribution of class labels after resampling Counter({1: 19, 2: 19})
 
 	 Modelo: KNeighborsClassifier
-	0.79 accuracy with a standard deviation of 0.07
-	0.85 recall with a standard deviation of 0.12
+	0.87 accuracy with a standard deviation of 0.11
+	0.90 recall with a standard deviation of 0.12
 
 	 Modelo: DecisionTreeClassifier
-	0.76 accuracy with a standard deviation of 0.27
-	0.70 recall with a standard deviation of 0.19
+	0.90 accuracy with a standard deviation of 0.09
+	0.95 recall with a standard deviation of 0.10
 
 	 Modelo: GaussianNB
-	0.68 accuracy with a standard deviation of 0.16
-	0.70 recall with a standard deviation of 0.19
+	0.89 accuracy with a standard deviation of 0.05
+	0.95 recall with a standard deviation of 0.10
 
 	 Modelo: SVC
-	0.76 accuracy with a standard deviation of 0.11
-	0.75 recall with a standard deviation of 0.16
+	0.90 accuracy with a standard deviation of 0.09
+	0.90 recall with a standard deviation of 0.12
 
 	 Modelo: RandomForestClassifier
-	0.81 accuracy with a standard deviation of 0.07
-	0.78 recall with a standard deviation of 0.19
+	0.95 accuracy with a standard deviation of 0.07
+	0.95 recall with a standard deviation of 0.10
 
 	 Modelo: LogisticRegression
-	0.81 accuracy with a standard deviation of 0.12
-	0.78 recall with a standard deviation of 0.19
+	0.84 accuracy with a standard deviation of 0.05
+	0.90 recall with a standard deviation of 0.12
 
 - MODELO DE RESAMPLING: EditedNearestNeighbours
 Distribution of class labels before resampling Counter({2: 27, 1: 19})
-Distribution of class labels after resampling Counter({1: 19, 2: 16})
+Distribution of class labels after resampling Counter({2: 22, 1: 19})
 
 	 Modelo: KNeighborsClassifier
-	0.97 accuracy with a standard deviation of 0.06
+	0.97 accuracy with a standard deviation of 0.05
 	0.95 recall with a standard deviation of 0.10
 
 	 Modelo: DecisionTreeClassifier
-	0.94 accuracy with a standard deviation of 0.11
-	0.95 recall with a standard deviation of 0.10
-
-	 Modelo: GaussianNB
-	0.74 accuracy with a standard deviation of 0.14
+	0.85 accuracy with a standard deviation of 0.09
 	0.90 recall with a standard deviation of 0.12
 
+	 Modelo: GaussianNB
+	0.93 accuracy with a standard deviation of 0.10
+	1.00 recall with a standard deviation of 0.00
+
 	 Modelo: SVC
-	0.80 accuracy with a standard deviation of 0.11
-	0.95 recall with a standard deviation of 0.10
+	0.95 accuracy with a standard deviation of 0.06
+	0.90 recall with a standard deviation of 0.12
 
 	 Modelo: RandomForestClassifier
-	0.97 accuracy with a standard deviation of 0.06
-	0.85 recall with a standard deviation of 0.12
+	0.88 accuracy with a standard deviation of 0.01
+	0.88 recall with a standard deviation of 0.15
 
 	 Modelo: LogisticRegression
-	0.94 accuracy with a standard deviation of 0.07
-	0.95 recall with a standard deviation of 0.10
+	0.93 accuracy with a standard deviation of 0.06
+	0.85 recall with a standard deviation of 0.12
 
 - MODELO DE RESAMPLING: ADASYN
 Distribution of class labels before resampling Counter({2: 27, 1: 19})
-Distribution of class labels after resampling Counter({2: 27, 1: 26})
+Distribution of class labels after resampling Counter({2: 27, 1: 27})
 
 	 Modelo: KNeighborsClassifier
-	0.89 accuracy with a standard deviation of 0.09
-	0.97 recall with a standard deviation of 0.07
+	0.93 accuracy with a standard deviation of 0.04
+	0.96 recall with a standard deviation of 0.08
 
 	 Modelo: DecisionTreeClassifier
-	0.74 accuracy with a standard deviation of 0.13
-	0.81 recall with a standard deviation of 0.24
+	0.78 accuracy with a standard deviation of 0.09
+	0.73 recall with a standard deviation of 0.11
 
 	 Modelo: GaussianNB
-	0.66 accuracy with a standard deviation of 0.12
-	0.77 recall with a standard deviation of 0.23
+	0.87 accuracy with a standard deviation of 0.09
+	0.96 recall with a standard deviation of 0.08
 
 	 Modelo: SVC
-	0.78 accuracy with a standard deviation of 0.19
-	0.70 recall with a standard deviation of 0.25
+	0.89 accuracy with a standard deviation of 0.04
+	0.89 recall with a standard deviation of 0.09
 
 	 Modelo: RandomForestClassifier
-	0.74 accuracy with a standard deviation of 0.15
-	0.86 recall with a standard deviation of 0.20
+	0.87 accuracy with a standard deviation of 0.13
+	0.93 recall with a standard deviation of 0.09
 
 	 Modelo: LogisticRegression
 	0.93 accuracy with a standard deviation of 0.07
-	0.97 recall with a standard deviation of 0.07
+	0.96 recall with a standard deviation of 0.08
 
 - MODELO DE RESAMPLING: SMOTE
 Distribution of class labels before resampling Counter({2: 27, 1: 19})
 Distribution of class labels after resampling Counter({2: 27, 1: 27})
 
 	 Modelo: KNeighborsClassifier
-	0.91 accuracy with a standard deviation of 0.10
-	1.00 recall with a standard deviation of 0.00
+	0.95 accuracy with a standard deviation of 0.04
+	0.97 recall with a standard deviation of 0.07
 
 	 Modelo: DecisionTreeClassifier
-	0.74 accuracy with a standard deviation of 0.10
-	0.85 recall with a standard deviation of 0.15
+	0.85 accuracy with a standard deviation of 0.09
+	0.73 recall with a standard deviation of 0.23
 
 	 Modelo: GaussianNB
-	0.80 accuracy with a standard deviation of 0.10
-	0.93 recall with a standard deviation of 0.09
+	0.93 accuracy with a standard deviation of 0.09
+	0.96 recall with a standard deviation of 0.08
 
 	 Modelo: SVC
-	0.82 accuracy with a standard deviation of 0.16
-	0.77 recall with a standard deviation of 0.14
+	0.93 accuracy with a standard deviation of 0.04
+	0.93 recall with a standard deviation of 0.09
 
 	 Modelo: RandomForestClassifier
-	0.85 accuracy with a standard deviation of 0.09
-	0.85 recall with a standard deviation of 0.18
+	0.87 accuracy with a standard deviation of 0.07
+	0.89 recall with a standard deviation of 0.16
 
 	 Modelo: LogisticRegression
-	0.93 accuracy with a standard deviation of 0.07
-	0.97 recall with a standard deviation of 0.07
+	0.91 accuracy with a standard deviation of 0.06
+	0.93 recall with a standard deviation of 0.09
 
 - MODELO DE RESAMPLING: SMOTETomek
 Distribution of class labels before resampling Counter({2: 27, 1: 19})
-Distribution of class labels after resampling Counter({2: 25, 1: 25})
+Distribution of class labels after resampling Counter({2: 27, 1: 27})
 
 	 Modelo: KNeighborsClassifier
-	0.94 accuracy with a standard deviation of 0.05
-	1.00 recall with a standard deviation of 0.00
+	0.95 accuracy with a standard deviation of 0.04
+	0.97 recall with a standard deviation of 0.07
 
 	 Modelo: DecisionTreeClassifier
-	0.70 accuracy with a standard deviation of 0.11
-	0.76 recall with a standard deviation of 0.15
+	0.85 accuracy with a standard deviation of 0.09
+	0.82 recall with a standard deviation of 0.18
 
 	 Modelo: GaussianNB
-	0.76 accuracy with a standard deviation of 0.15
+	0.93 accuracy with a standard deviation of 0.09
 	0.96 recall with a standard deviation of 0.08
 
 	 Modelo: SVC
-	0.78 accuracy with a standard deviation of 0.07
-	0.80 recall with a standard deviation of 0.22
+	0.95 accuracy with a standard deviation of 0.04
+	0.97 recall with a standard deviation of 0.07
 
 	 Modelo: RandomForestClassifier
-	0.82 accuracy with a standard deviation of 0.18
-	0.92 recall with a standard deviation of 0.10
+	0.91 accuracy with a standard deviation of 0.06
+	0.97 recall with a standard deviation of 0.07
 
 	 Modelo: LogisticRegression
-	0.90 accuracy with a standard deviation of 0.00
-	0.96 recall with a standard deviation of 0.08
+	0.91 accuracy with a standard deviation of 0.06
+	0.93 recall with a standard deviation of 0.09
 
 - MODELO DE RESAMPLING: SMOTEENN
 Distribution of class labels before resampling Counter({2: 27, 1: 19})
-Distribution of class labels after resampling Counter({1: 23, 2: 16})
+Distribution of class labels after resampling Counter({1: 25, 2: 22})
 
 	 Modelo: KNeighborsClassifier
 	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	0.85 accuracy with a standard deviation of 0.09
-	0.88 recall with a standard deviation of 0.16
+	0.90 accuracy with a standard deviation of 0.09
+	0.88 recall with a standard deviation of 0.10
 
 	 Modelo: GaussianNB
-	0.82 accuracy with a standard deviation of 0.13
+	0.96 accuracy with a standard deviation of 0.05
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: SVC
-	0.77 accuracy with a standard deviation of 0.15
+	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
-	0.85 accuracy with a standard deviation of 0.15
-	0.96 recall with a standard deviation of 0.08
+	0.93 accuracy with a standard deviation of 0.09
+	0.88 recall with a standard deviation of 0.16
 
 	 Modelo: LogisticRegression
-	0.95 accuracy with a standard deviation of 0.07
-	0.96 recall with a standard deviation of 0.08
+	1.00 accuracy with a standard deviation of 0.00
+	1.00 recall with a standard deviation of 0.00
 
 ------------ CLASIFICACION GESTO 4 -----------
 
@@ -445,168 +472,168 @@ Distribution of class labels before resampling Counter({1: 18, 2: 7})
 Distribution of class labels after resampling Counter({1: 7, 2: 7})
 
 	 Modelo: KNeighborsClassifier
-	0.87 accuracy with a standard deviation of 0.16
-	0.80 recall with a standard deviation of 0.40
+	0.70 accuracy with a standard deviation of 0.16
+	0.70 recall with a standard deviation of 0.40
 
 	 Modelo: DecisionTreeClassifier
-	0.73 accuracy with a standard deviation of 0.25
-	0.60 recall with a standard deviation of 0.37
+	0.47 accuracy with a standard deviation of 0.45
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: GaussianNB
-	0.70 accuracy with a standard deviation of 0.27
-	0.80 recall with a standard deviation of 0.40
+	0.47 accuracy with a standard deviation of 0.34
+	0.60 recall with a standard deviation of 0.49
 
 	 Modelo: SVC
 	0.37 accuracy with a standard deviation of 0.07
 	0.60 recall with a standard deviation of 0.49
 
 	 Modelo: RandomForestClassifier
-	0.73 accuracy with a standard deviation of 0.33
-	0.80 recall with a standard deviation of 0.40
+	0.20 accuracy with a standard deviation of 0.27
+	0.70 recall with a standard deviation of 0.40
 
 	 Modelo: LogisticRegression
-	0.80 accuracy with a standard deviation of 0.27
+	0.67 accuracy with a standard deviation of 0.37
 	0.80 recall with a standard deviation of 0.40
 
 - MODELO DE RESAMPLING: EditedNearestNeighbours
 Distribution of class labels before resampling Counter({1: 18, 2: 7})
-Distribution of class labels after resampling Counter({1: 12, 2: 7})
+Distribution of class labels after resampling Counter({1: 11, 2: 7})
 
 	 Modelo: KNeighborsClassifier
-	0.80 accuracy with a standard deviation of 0.19
-	0.93 recall with a standard deviation of 0.13
+	0.95 accuracy with a standard deviation of 0.10
+	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	0.85 accuracy with a standard deviation of 0.20
+	0.68 accuracy with a standard deviation of 0.24
 	0.90 recall with a standard deviation of 0.20
 
 	 Modelo: GaussianNB
-	0.43 accuracy with a standard deviation of 0.23
-	0.43 recall with a standard deviation of 0.33
+	0.68 accuracy with a standard deviation of 0.24
+	0.60 recall with a standard deviation of 0.37
 
 	 Modelo: SVC
-	0.63 accuracy with a standard deviation of 0.11
-	1.00 recall with a standard deviation of 0.00
+	0.62 accuracy with a standard deviation of 0.10
+	0.70 recall with a standard deviation of 0.40
 
 	 Modelo: RandomForestClassifier
-	0.78 accuracy with a standard deviation of 0.19
-	0.83 recall with a standard deviation of 0.21
+	0.80 accuracy with a standard deviation of 0.19
+	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: LogisticRegression
-	0.68 accuracy with a standard deviation of 0.19
-	0.77 recall with a standard deviation of 0.29
+	0.88 accuracy with a standard deviation of 0.15
+	1.00 recall with a standard deviation of 0.00
 
 - MODELO DE RESAMPLING: ADASYN
 Distribution of class labels before resampling Counter({1: 18, 2: 7})
-Distribution of class labels after resampling Counter({1: 18, 2: 16})
+Distribution of class labels after resampling Counter({1: 18, 2: 17})
 
 	 Modelo: KNeighborsClassifier
-	0.97 accuracy with a standard deviation of 0.06
-	0.93 recall with a standard deviation of 0.13
+	0.89 accuracy with a standard deviation of 0.14
+	0.82 recall with a standard deviation of 0.26
 
 	 Modelo: DecisionTreeClassifier
-	0.70 accuracy with a standard deviation of 0.13
+	0.71 accuracy with a standard deviation of 0.24
 	0.72 recall with a standard deviation of 0.27
 
 	 Modelo: GaussianNB
-	0.71 accuracy with a standard deviation of 0.15
-	0.50 recall with a standard deviation of 0.19
+	0.71 accuracy with a standard deviation of 0.13
+	0.57 recall with a standard deviation of 0.08
 
 	 Modelo: SVC
-	0.50 accuracy with a standard deviation of 0.14
-	0.60 recall with a standard deviation of 0.37
+	0.71 accuracy with a standard deviation of 0.20
+	0.58 recall with a standard deviation of 0.25
 
 	 Modelo: RandomForestClassifier
-	0.82 accuracy with a standard deviation of 0.14
-	0.73 recall with a standard deviation of 0.28
+	0.66 accuracy with a standard deviation of 0.25
+	0.65 recall with a standard deviation of 0.23
 
 	 Modelo: LogisticRegression
-	0.91 accuracy with a standard deviation of 0.12
-	0.83 recall with a standard deviation of 0.21
+	0.94 accuracy with a standard deviation of 0.11
+	0.90 recall with a standard deviation of 0.20
 
 - MODELO DE RESAMPLING: SMOTE
 Distribution of class labels before resampling Counter({1: 18, 2: 7})
 Distribution of class labels after resampling Counter({1: 18, 2: 18})
 
 	 Modelo: KNeighborsClassifier
-	0.94 accuracy with a standard deviation of 0.07
-	0.93 recall with a standard deviation of 0.13
+	0.89 accuracy with a standard deviation of 0.13
+	0.82 recall with a standard deviation of 0.26
 
 	 Modelo: DecisionTreeClassifier
-	0.81 accuracy with a standard deviation of 0.16
-	0.77 recall with a standard deviation of 0.24
+	0.70 accuracy with a standard deviation of 0.04
+	0.72 recall with a standard deviation of 0.21
 
 	 Modelo: GaussianNB
-	0.70 accuracy with a standard deviation of 0.16
-	0.50 recall with a standard deviation of 0.19
+	0.70 accuracy with a standard deviation of 0.10
+	0.57 recall with a standard deviation of 0.08
 
 	 Modelo: SVC
-	0.58 accuracy with a standard deviation of 0.16
-	0.47 recall with a standard deviation of 0.24
+	0.73 accuracy with a standard deviation of 0.13
+	0.52 recall with a standard deviation of 0.15
 
 	 Modelo: RandomForestClassifier
-	0.84 accuracy with a standard deviation of 0.10
-	0.90 recall with a standard deviation of 0.12
+	0.81 accuracy with a standard deviation of 0.09
+	0.67 recall with a standard deviation of 0.18
 
 	 Modelo: LogisticRegression
-	0.89 accuracy with a standard deviation of 0.10
-	0.83 recall with a standard deviation of 0.21
+	0.97 accuracy with a standard deviation of 0.05
+	0.95 recall with a standard deviation of 0.10
 
 - MODELO DE RESAMPLING: SMOTETomek
 Distribution of class labels before resampling Counter({1: 18, 2: 7})
 Distribution of class labels after resampling Counter({1: 18, 2: 18})
 
 	 Modelo: KNeighborsClassifier
-	0.97 accuracy with a standard deviation of 0.06
-	0.93 recall with a standard deviation of 0.13
-
-	 Modelo: DecisionTreeClassifier
-	0.83 accuracy with a standard deviation of 0.14
-	0.72 recall with a standard deviation of 0.27
-
-	 Modelo: GaussianNB
-	0.67 accuracy with a standard deviation of 0.14
-	0.50 recall with a standard deviation of 0.19
-
-	 Modelo: SVC
-	0.58 accuracy with a standard deviation of 0.09
-	0.47 recall with a standard deviation of 0.24
-
-	 Modelo: RandomForestClassifier
-	0.80 accuracy with a standard deviation of 0.11
+	0.89 accuracy with a standard deviation of 0.11
 	0.82 recall with a standard deviation of 0.26
 
+	 Modelo: DecisionTreeClassifier
+	0.83 accuracy with a standard deviation of 0.17
+	0.78 recall with a standard deviation of 0.19
+
+	 Modelo: GaussianNB
+	0.70 accuracy with a standard deviation of 0.15
+	0.57 recall with a standard deviation of 0.18
+
+	 Modelo: SVC
+	0.67 accuracy with a standard deviation of 0.15
+	0.57 recall with a standard deviation of 0.18
+
+	 Modelo: RandomForestClassifier
+	0.76 accuracy with a standard deviation of 0.17
+	0.88 recall with a standard deviation of 0.15
+
 	 Modelo: LogisticRegression
-	0.92 accuracy with a standard deviation of 0.10
-	0.83 recall with a standard deviation of 0.21
+	0.95 accuracy with a standard deviation of 0.10
+	0.90 recall with a standard deviation of 0.20
 
 - MODELO DE RESAMPLING: SMOTEENN
 Distribution of class labels before resampling Counter({1: 18, 2: 7})
-Distribution of class labels after resampling Counter({1: 12, 2: 12})
+Distribution of class labels after resampling Counter({1: 11, 2: 10})
 
 	 Modelo: KNeighborsClassifier
 	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	0.91 accuracy with a standard deviation of 0.11
-	0.83 recall with a standard deviation of 0.21
+	0.81 accuracy with a standard deviation of 0.10
+	0.70 recall with a standard deviation of 0.24
 
 	 Modelo: GaussianNB
-	0.83 accuracy with a standard deviation of 0.09
-	0.77 recall with a standard deviation of 0.20
+	0.80 accuracy with a standard deviation of 0.19
+	0.60 recall with a standard deviation of 0.37
 
 	 Modelo: SVC
-	0.75 accuracy with a standard deviation of 0.15
-	0.50 recall with a standard deviation of 0.33
+	0.80 accuracy with a standard deviation of 0.19
+	0.60 recall with a standard deviation of 0.37
 
 	 Modelo: RandomForestClassifier
-	0.87 accuracy with a standard deviation of 0.11
-	0.83 recall with a standard deviation of 0.21
+	0.95 accuracy with a standard deviation of 0.10
+	0.70 recall with a standard deviation of 0.40
 
 	 Modelo: LogisticRegression
-	0.91 accuracy with a standard deviation of 0.11
-	0.93 recall with a standard deviation of 0.13
+	1.00 accuracy with a standard deviation of 0.00
+	1.00 recall with a standard deviation of 0.00
 
 ------------ CLASIFICACION GESTO 5 -----------
 
@@ -615,16 +642,16 @@ Distribution of class labels before resampling Counter({1: 8, 2: 6})
 Distribution of class labels after resampling Counter({1: 6, 2: 6})
 
 	 Modelo: KNeighborsClassifier
-	0.73 accuracy with a standard deviation of 0.23
+	0.77 accuracy with a standard deviation of 0.20
 	0.70 recall with a standard deviation of 0.40
 
 	 Modelo: DecisionTreeClassifier
-	0.77 accuracy with a standard deviation of 0.29
+	0.70 accuracy with a standard deviation of 0.27
 	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: GaussianNB
-	0.73 accuracy with a standard deviation of 0.23
-	0.70 recall with a standard deviation of 0.40
+	0.70 accuracy with a standard deviation of 0.27
+	0.60 recall with a standard deviation of 0.49
 
 	 Modelo: SVC
 	0.90 accuracy with a standard deviation of 0.20
@@ -632,7 +659,7 @@ Distribution of class labels after resampling Counter({1: 6, 2: 6})
 
 	 Modelo: RandomForestClassifier
 	0.83 accuracy with a standard deviation of 0.21
-	0.80 recall with a standard deviation of 0.40
+	0.60 recall with a standard deviation of 0.49
 
 	 Modelo: LogisticRegression
 	0.77 accuracy with a standard deviation of 0.20
@@ -640,143 +667,143 @@ Distribution of class labels after resampling Counter({1: 6, 2: 6})
 
 - MODELO DE RESAMPLING: EditedNearestNeighbours
 Distribution of class labels before resampling Counter({1: 8, 2: 6})
-Distribution of class labels after resampling Counter({2: 6, 1: 3})
+Distribution of class labels after resampling Counter({2: 6, 1: 4})
 
 	 Modelo: KNeighborsClassifier
 	0.90 accuracy with a standard deviation of 0.20
-	0.60 recall with a standard deviation of 0.49
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: DecisionTreeClassifier
-	0.90 accuracy with a standard deviation of 0.20
+	1.00 accuracy with a standard deviation of 0.00
 	0.40 recall with a standard deviation of 0.49
 
 	 Modelo: GaussianNB
-	0.60 accuracy with a standard deviation of 0.20
-	0.00 recall with a standard deviation of 0.00
+	0.70 accuracy with a standard deviation of 0.24
+	0.40 recall with a standard deviation of 0.49
 
 	 Modelo: SVC
-	0.60 accuracy with a standard deviation of 0.20
-	0.00 recall with a standard deviation of 0.00
+	0.90 accuracy with a standard deviation of 0.20
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: RandomForestClassifier
-	0.80 accuracy with a standard deviation of 0.24
-	0.60 recall with a standard deviation of 0.49
+	0.90 accuracy with a standard deviation of 0.20
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: LogisticRegression
 	0.90 accuracy with a standard deviation of 0.20
-	0.60 recall with a standard deviation of 0.49
+	0.80 recall with a standard deviation of 0.40
 
 - MODELO DE RESAMPLING: ADASYN
 Distribution of class labels before resampling Counter({1: 8, 2: 6})
-Distribution of class labels after resampling Counter({1: 8, 2: 8})
+Distribution of class labels after resampling Counter({2: 8, 1: 8})
 
 	 Modelo: KNeighborsClassifier
-	0.88 accuracy with a standard deviation of 0.15
-	0.80 recall with a standard deviation of 0.24
+	0.87 accuracy with a standard deviation of 0.16
+	0.70 recall with a standard deviation of 0.40
 
 	 Modelo: DecisionTreeClassifier
-	0.73 accuracy with a standard deviation of 0.25
+	0.80 accuracy with a standard deviation of 0.16
 	0.70 recall with a standard deviation of 0.40
 
 	 Modelo: GaussianNB
-	0.82 accuracy with a standard deviation of 0.15
-	0.80 recall with a standard deviation of 0.24
+	0.87 accuracy with a standard deviation of 0.16
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: SVC
-	0.80 accuracy with a standard deviation of 0.27
-	1.00 recall with a standard deviation of 0.00
+	0.73 accuracy with a standard deviation of 0.13
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: RandomForestClassifier
-	0.82 accuracy with a standard deviation of 0.15
-	1.00 recall with a standard deviation of 0.00
+	0.53 accuracy with a standard deviation of 0.34
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: LogisticRegression
-	0.88 accuracy with a standard deviation of 0.15
+	0.87 accuracy with a standard deviation of 0.16
 	0.70 recall with a standard deviation of 0.40
 
 - MODELO DE RESAMPLING: SMOTE
 Distribution of class labels before resampling Counter({1: 8, 2: 6})
-Distribution of class labels after resampling Counter({1: 8, 2: 8})
+Distribution of class labels after resampling Counter({2: 8, 1: 8})
 
 	 Modelo: KNeighborsClassifier
-	0.82 accuracy with a standard deviation of 0.15
-	0.80 recall with a standard deviation of 0.24
+	0.80 accuracy with a standard deviation of 0.16
+	0.70 recall with a standard deviation of 0.40
 
 	 Modelo: DecisionTreeClassifier
-	0.82 accuracy with a standard deviation of 0.15
-	0.80 recall with a standard deviation of 0.24
+	0.67 accuracy with a standard deviation of 0.37
+	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: GaussianNB
-	0.88 accuracy with a standard deviation of 0.15
-	0.90 recall with a standard deviation of 0.20
-
-	 Modelo: SVC
 	0.87 accuracy with a standard deviation of 0.16
-	1.00 recall with a standard deviation of 0.00
-
-	 Modelo: RandomForestClassifier
-	0.88 accuracy with a standard deviation of 0.15
-	1.00 recall with a standard deviation of 0.00
-
-	 Modelo: LogisticRegression
-	0.88 accuracy with a standard deviation of 0.15
-	0.90 recall with a standard deviation of 0.20
-
-- MODELO DE RESAMPLING: SMOTETomek
-Distribution of class labels before resampling Counter({1: 8, 2: 6})
-Distribution of class labels after resampling Counter({1: 8, 2: 8})
-
-	 Modelo: KNeighborsClassifier
-	0.82 accuracy with a standard deviation of 0.15
-	0.80 recall with a standard deviation of 0.24
-
-	 Modelo: DecisionTreeClassifier
-	0.75 accuracy with a standard deviation of 0.25
 	0.80 recall with a standard deviation of 0.40
-
-	 Modelo: GaussianNB
-	0.88 accuracy with a standard deviation of 0.15
-	0.90 recall with a standard deviation of 0.20
 
 	 Modelo: SVC
 	0.93 accuracy with a standard deviation of 0.13
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
+	0.87 accuracy with a standard deviation of 0.16
+	1.00 recall with a standard deviation of 0.00
+
+	 Modelo: LogisticRegression
+	0.75 accuracy with a standard deviation of 0.13
+	0.70 recall with a standard deviation of 0.40
+
+- MODELO DE RESAMPLING: SMOTETomek
+Distribution of class labels before resampling Counter({1: 8, 2: 6})
+Distribution of class labels after resampling Counter({2: 8, 1: 8})
+
+	 Modelo: KNeighborsClassifier
+	0.80 accuracy with a standard deviation of 0.16
+	0.70 recall with a standard deviation of 0.40
+
+	 Modelo: DecisionTreeClassifier
+	0.87 accuracy with a standard deviation of 0.16
+	0.90 recall with a standard deviation of 0.20
+
+	 Modelo: GaussianNB
+	0.87 accuracy with a standard deviation of 0.16
+	0.80 recall with a standard deviation of 0.40
+
+	 Modelo: SVC
+	0.87 accuracy with a standard deviation of 0.16
+	0.80 recall with a standard deviation of 0.40
+
+	 Modelo: RandomForestClassifier
 	0.82 accuracy with a standard deviation of 0.15
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: LogisticRegression
-	0.88 accuracy with a standard deviation of 0.15
-	0.90 recall with a standard deviation of 0.20
+	0.80 accuracy with a standard deviation of 0.16
+	0.70 recall with a standard deviation of 0.40
 
 - MODELO DE RESAMPLING: SMOTEENN
 Distribution of class labels before resampling Counter({1: 8, 2: 6})
-Distribution of class labels after resampling Counter({2: 7, 1: 3})
+Distribution of class labels after resampling Counter({2: 7, 1: 4})
 
 	 Modelo: KNeighborsClassifier
 	1.00 accuracy with a standard deviation of 0.00
-	0.60 recall with a standard deviation of 0.49
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: DecisionTreeClassifier
 	1.00 accuracy with a standard deviation of 0.00
-	0.60 recall with a standard deviation of 0.49
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: GaussianNB
 	1.00 accuracy with a standard deviation of 0.00
-	0.60 recall with a standard deviation of 0.49
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: SVC
 	1.00 accuracy with a standard deviation of 0.00
-	0.60 recall with a standard deviation of 0.49
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: RandomForestClassifier
 	1.00 accuracy with a standard deviation of 0.00
-	0.60 recall with a standard deviation of 0.49
+	0.80 recall with a standard deviation of 0.40
 
 	 Modelo: LogisticRegression
 	1.00 accuracy with a standard deviation of 0.00
-	0.60 recall with a standard deviation of 0.49
+	0.80 recall with a standard deviation of 0.40
 
 ------------ CLASIFICACION GESTO 6 -----------
 
@@ -800,7 +827,7 @@ Distribution of class labels after resampling Counter({1: 11, 2: 3})
 
 	 Modelo: DecisionTreeClassifier
 	0.83 accuracy with a standard deviation of 0.21
-	1.00 recall with a standard deviation of 0.00
+	0.90 recall with a standard deviation of 0.20
 
 	 Modelo: GaussianNB
 	0.93 accuracy with a standard deviation of 0.13
@@ -811,7 +838,7 @@ Distribution of class labels after resampling Counter({1: 11, 2: 3})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
-	0.90 accuracy with a standard deviation of 0.20
+	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: LogisticRegression
@@ -821,15 +848,15 @@ Skipping ADASYN due to ERROR: Not any neigbours belong to the majority class. Th
 
 - MODELO DE RESAMPLING: SMOTE
 Distribution of class labels before resampling Counter({1: 11, 2: 3})
-Distribution of class labels after resampling Counter({1: 11, 2: 11})
+Distribution of class labels after resampling Counter({2: 11, 1: 11})
 
 	 Modelo: KNeighborsClassifier
 	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	1.00 accuracy with a standard deviation of 0.00
-	1.00 recall with a standard deviation of 0.00
+	0.86 accuracy with a standard deviation of 0.20
+	0.90 recall with a standard deviation of 0.20
 
 	 Modelo: GaussianNB
 	1.00 accuracy with a standard deviation of 0.00
@@ -849,7 +876,7 @@ Distribution of class labels after resampling Counter({1: 11, 2: 11})
 
 - MODELO DE RESAMPLING: SMOTETomek
 Distribution of class labels before resampling Counter({1: 11, 2: 3})
-Distribution of class labels after resampling Counter({1: 11, 2: 11})
+Distribution of class labels after resampling Counter({2: 11, 1: 11})
 
 	 Modelo: KNeighborsClassifier
 	1.00 accuracy with a standard deviation of 0.00
@@ -857,7 +884,7 @@ Distribution of class labels after resampling Counter({1: 11, 2: 11})
 
 	 Modelo: DecisionTreeClassifier
 	1.00 accuracy with a standard deviation of 0.00
-	0.90 recall with a standard deviation of 0.20
+	0.93 recall with a standard deviation of 0.13
 
 	 Modelo: GaussianNB
 	1.00 accuracy with a standard deviation of 0.00
@@ -869,7 +896,7 @@ Distribution of class labels after resampling Counter({1: 11, 2: 11})
 
 	 Modelo: RandomForestClassifier
 	1.00 accuracy with a standard deviation of 0.00
-	1.00 recall with a standard deviation of 0.00
+	0.93 recall with a standard deviation of 0.13
 
 	 Modelo: LogisticRegression
 	1.00 accuracy with a standard deviation of 0.00
@@ -884,8 +911,8 @@ Distribution of class labels after resampling Counter({1: 11, 2: 11})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	1.00 accuracy with a standard deviation of 0.00
-	1.00 recall with a standard deviation of 0.00
+	0.88 accuracy with a standard deviation of 0.16
+	0.90 recall with a standard deviation of 0.20
 
 	 Modelo: GaussianNB
 	1.00 accuracy with a standard deviation of 0.00
@@ -897,7 +924,7 @@ Distribution of class labels after resampling Counter({1: 11, 2: 11})
 
 	 Modelo: RandomForestClassifier
 	1.00 accuracy with a standard deviation of 0.00
-	0.90 recall with a standard deviation of 0.20
+	0.93 recall with a standard deviation of 0.13
 
 	 Modelo: LogisticRegression
 	1.00 accuracy with a standard deviation of 0.00
@@ -917,26 +944,26 @@ Skipping LogisticRegression due to ERROR: n_splits=5 cannot be greater than the 
 
 - MODELO DE RESAMPLING: EditedNearestNeighbours
 Distribution of class labels before resampling Counter({1: 14, 2: 3})
-Distribution of class labels after resampling Counter({1: 11, 2: 3})
+Distribution of class labels after resampling Counter({1: 10, 2: 3})
 
 	 Modelo: KNeighborsClassifier
 	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	0.87 accuracy with a standard deviation of 0.16
-	1.00 recall with a standard deviation of 0.00
+	0.93 accuracy with a standard deviation of 0.13
+	0.90 recall with a standard deviation of 0.20
 
 	 Modelo: GaussianNB
-	0.93 accuracy with a standard deviation of 0.13
-	1.00 recall with a standard deviation of 0.00
+	0.83 accuracy with a standard deviation of 0.21
+	0.90 recall with a standard deviation of 0.20
 
 	 Modelo: SVC
 	0.80 accuracy with a standard deviation of 0.16
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
-	0.93 accuracy with a standard deviation of 0.13
+	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: LogisticRegression
@@ -948,39 +975,39 @@ Distribution of class labels before resampling Counter({1: 14, 2: 3})
 Distribution of class labels after resampling Counter({1: 14, 2: 13})
 
 	 Modelo: KNeighborsClassifier
-	0.89 accuracy with a standard deviation of 0.09
-	0.77 recall with a standard deviation of 0.20
+	0.93 accuracy with a standard deviation of 0.08
+	0.87 recall with a standard deviation of 0.16
 
 	 Modelo: DecisionTreeClassifier
-	0.97 accuracy with a standard deviation of 0.07
-	0.93 recall with a standard deviation of 0.13
+	1.00 accuracy with a standard deviation of 0.00
+	0.87 recall with a standard deviation of 0.27
 
 	 Modelo: GaussianNB
-	0.97 accuracy with a standard deviation of 0.07
+	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: SVC
-	0.89 accuracy with a standard deviation of 0.09
-	0.77 recall with a standard deviation of 0.20
+	0.85 accuracy with a standard deviation of 0.15
+	0.73 recall with a standard deviation of 0.25
 
 	 Modelo: RandomForestClassifier
-	0.85 accuracy with a standard deviation of 0.13
-	0.83 recall with a standard deviation of 0.21
+	0.97 accuracy with a standard deviation of 0.07
+	0.87 recall with a standard deviation of 0.27
 
 	 Modelo: LogisticRegression
-	1.00 accuracy with a standard deviation of 0.00
-	1.00 recall with a standard deviation of 0.00
+	0.93 accuracy with a standard deviation of 0.08
+	0.87 recall with a standard deviation of 0.16
 
 - MODELO DE RESAMPLING: SMOTE
 Distribution of class labels before resampling Counter({1: 14, 2: 3})
 Distribution of class labels after resampling Counter({1: 14, 2: 14})
 
 	 Modelo: KNeighborsClassifier
-	0.93 accuracy with a standard deviation of 0.09
+	0.93 accuracy with a standard deviation of 0.08
 	0.87 recall with a standard deviation of 0.16
 
 	 Modelo: DecisionTreeClassifier
-	0.92 accuracy with a standard deviation of 0.10
+	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: GaussianNB
@@ -988,48 +1015,48 @@ Distribution of class labels after resampling Counter({1: 14, 2: 14})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: SVC
-	0.89 accuracy with a standard deviation of 0.09
-	0.77 recall with a standard deviation of 0.20
+	0.87 accuracy with a standard deviation of 0.12
+	0.73 recall with a standard deviation of 0.25
 
 	 Modelo: RandomForestClassifier
-	1.00 accuracy with a standard deviation of 0.00
+	0.90 accuracy with a standard deviation of 0.13
 	0.93 recall with a standard deviation of 0.13
 
 	 Modelo: LogisticRegression
-	1.00 accuracy with a standard deviation of 0.00
-	1.00 recall with a standard deviation of 0.00
+	0.93 accuracy with a standard deviation of 0.08
+	0.87 recall with a standard deviation of 0.16
 
 - MODELO DE RESAMPLING: SMOTETomek
 Distribution of class labels before resampling Counter({1: 14, 2: 3})
 Distribution of class labels after resampling Counter({1: 14, 2: 14})
 
 	 Modelo: KNeighborsClassifier
-	0.92 accuracy with a standard deviation of 0.10
-	0.83 recall with a standard deviation of 0.21
+	0.93 accuracy with a standard deviation of 0.08
+	0.87 recall with a standard deviation of 0.16
 
 	 Modelo: DecisionTreeClassifier
 	1.00 accuracy with a standard deviation of 0.00
-	1.00 recall with a standard deviation of 0.00
+	0.87 recall with a standard deviation of 0.27
 
 	 Modelo: GaussianNB
 	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: SVC
-	0.89 accuracy with a standard deviation of 0.09
-	0.77 recall with a standard deviation of 0.20
+	0.87 accuracy with a standard deviation of 0.12
+	0.73 recall with a standard deviation of 0.25
 
 	 Modelo: RandomForestClassifier
-	0.89 accuracy with a standard deviation of 0.09
-	0.93 recall with a standard deviation of 0.13
+	0.97 accuracy with a standard deviation of 0.07
+	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: LogisticRegression
-	1.00 accuracy with a standard deviation of 0.00
-	1.00 recall with a standard deviation of 0.00
+	0.93 accuracy with a standard deviation of 0.08
+	0.87 recall with a standard deviation of 0.16
 
 - MODELO DE RESAMPLING: SMOTEENN
 Distribution of class labels before resampling Counter({1: 14, 2: 3})
-Distribution of class labels after resampling Counter({2: 12, 1: 11})
+Distribution of class labels after resampling Counter({2: 11, 1: 10})
 
 	 Modelo: KNeighborsClassifier
 	1.00 accuracy with a standard deviation of 0.00
@@ -1037,7 +1064,7 @@ Distribution of class labels after resampling Counter({2: 12, 1: 11})
 
 	 Modelo: DecisionTreeClassifier
 	0.95 accuracy with a standard deviation of 0.10
-	0.90 recall with a standard deviation of 0.20
+	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: GaussianNB
 	0.95 accuracy with a standard deviation of 0.10
@@ -1073,15 +1100,15 @@ Distribution of class labels before resampling Counter({1: 31, 2: 3})
 Distribution of class labels after resampling Counter({1: 29, 2: 3})
 
 	 Modelo: KNeighborsClassifier
-	0.97 accuracy with a standard deviation of 0.07
-	1.00 recall with a standard deviation of 0.00
-
-	 Modelo: DecisionTreeClassifier
 	0.97 accuracy with a standard deviation of 0.06
 	1.00 recall with a standard deviation of 0.00
 
+	 Modelo: DecisionTreeClassifier
+	0.94 accuracy with a standard deviation of 0.08
+	0.97 recall with a standard deviation of 0.07
+
 	 Modelo: GaussianNB
-	0.97 accuracy with a standard deviation of 0.07
+	0.91 accuracy with a standard deviation of 0.07
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: SVC
@@ -1089,11 +1116,11 @@ Distribution of class labels after resampling Counter({1: 29, 2: 3})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: RandomForestClassifier
-	0.97 accuracy with a standard deviation of 0.07
-	1.00 recall with a standard deviation of 0.00
+	0.97 accuracy with a standard deviation of 0.06
+	0.97 recall with a standard deviation of 0.07
 
 	 Modelo: LogisticRegression
-	0.97 accuracy with a standard deviation of 0.07
+	0.97 accuracy with a standard deviation of 0.06
 	1.00 recall with a standard deviation of 0.00
 
 - MODELO DE RESAMPLING: ADASYN
@@ -1105,20 +1132,20 @@ Distribution of class labels after resampling Counter({1: 31, 2: 31})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	0.98 accuracy with a standard deviation of 0.03
-	0.91 recall with a standard deviation of 0.12
+	0.97 accuracy with a standard deviation of 0.04
+	0.90 recall with a standard deviation of 0.08
 
 	 Modelo: GaussianNB
 	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: SVC
-	0.79 accuracy with a standard deviation of 0.13
-	0.59 recall with a standard deviation of 0.24
+	0.81 accuracy with a standard deviation of 0.08
+	0.61 recall with a standard deviation of 0.17
 
 	 Modelo: RandomForestClassifier
-	0.98 accuracy with a standard deviation of 0.03
-	1.00 recall with a standard deviation of 0.00
+	1.00 accuracy with a standard deviation of 0.00
+	0.97 recall with a standard deviation of 0.07
 
 	 Modelo: LogisticRegression
 	1.00 accuracy with a standard deviation of 0.00
@@ -1133,7 +1160,7 @@ Distribution of class labels after resampling Counter({1: 31, 2: 31})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	0.98 accuracy with a standard deviation of 0.03
+	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: GaussianNB
@@ -1141,8 +1168,8 @@ Distribution of class labels after resampling Counter({1: 31, 2: 31})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: SVC
-	0.78 accuracy with a standard deviation of 0.12
-	0.56 recall with a standard deviation of 0.24
+	0.81 accuracy with a standard deviation of 0.08
+	0.61 recall with a standard deviation of 0.17
 
 	 Modelo: RandomForestClassifier
 	1.00 accuracy with a standard deviation of 0.00
@@ -1169,8 +1196,8 @@ Distribution of class labels after resampling Counter({1: 31, 2: 31})
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: SVC
-	0.79 accuracy with a standard deviation of 0.13
-	0.59 recall with a standard deviation of 0.24
+	0.81 accuracy with a standard deviation of 0.08
+	0.61 recall with a standard deviation of 0.17
 
 	 Modelo: RandomForestClassifier
 	1.00 accuracy with a standard deviation of 0.00
@@ -1182,28 +1209,28 @@ Distribution of class labels after resampling Counter({1: 31, 2: 31})
 
 - MODELO DE RESAMPLING: SMOTEENN
 Distribution of class labels before resampling Counter({1: 31, 2: 3})
-Distribution of class labels after resampling Counter({2: 31, 1: 28})
+Distribution of class labels after resampling Counter({2: 31, 1: 27})
 
 	 Modelo: KNeighborsClassifier
 	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: DecisionTreeClassifier
-	1.00 accuracy with a standard deviation of 0.00
-	1.00 recall with a standard deviation of 0.00
+	0.97 accuracy with a standard deviation of 0.04
+	0.96 recall with a standard deviation of 0.08
 
 	 Modelo: GaussianNB
 	1.00 accuracy with a standard deviation of 0.00
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: SVC
-	0.80 accuracy with a standard deviation of 0.11
-	0.59 recall with a standard deviation of 0.21
+	0.86 accuracy with a standard deviation of 0.11
+	0.71 recall with a standard deviation of 0.23
 
 	 Modelo: RandomForestClassifier
-	1.00 accuracy with a standard deviation of 0.00
+	0.98 accuracy with a standard deviation of 0.04
 	1.00 recall with a standard deviation of 0.00
 
 	 Modelo: LogisticRegression
-	0.98 accuracy with a standard deviation of 0.03
-	0.97 recall with a standard deviation of 0.07
+	1.00 accuracy with a standard deviation of 0.00
+	1.00 recall with a standard deviation of 0.00
