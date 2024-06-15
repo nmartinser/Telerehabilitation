@@ -1,0 +1,19 @@
+
+------------ CLASIFICACION GESTO 0 -----------
+Training set score: 0.9833333333333333Test set score: 0.9487179487179487
+------------ CLASIFICACION GESTO 1 -----------
+Training set score: 1.0Test set score: 0.9047619047619048
+------------ CLASIFICACION GESTO 2 -----------
+Training set score: 0.9888888888888889Test set score: 0.9316239316239316
+------------ CLASIFICACION GESTO 3 -----------
+Training set score: 1.0Test set score: 0.96875
+------------ CLASIFICACION GESTO 4 -----------
+Training set score: 1.0Test set score: 0.8674698795180723
+------------ CLASIFICACION GESTO 5 -----------
+Training set score: 0.9385474860335196Test set score: 0.9487179487179487
+------------ CLASIFICACION GESTO 6 -----------
+Training set score: 1.0Test set score: 0.9230769230769231
+------------ CLASIFICACION GESTO 7 -----------
+Training set score: 1.0Test set score: 0.8780487804878049
+------------ CLASIFICACION GESTO 8 -----------
+Training set score: 0.855Test set score: 0.7701149425287356
