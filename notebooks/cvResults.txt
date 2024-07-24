@@ -8,15 +8,3 @@ Distribution of class labels after resampling Counter({1: 38, 2: 38})
 	 Modelo: KNeighborsClassifier
 	0.86 accuracy with a standard deviation of 0.17
 	0.76 recall with a standard deviation of 0.39
-
-	 Modelo: DecisionTreeClassifier
-	0.63 accuracy with a standard deviation of 0.41
-	0.51 recall with a standard deviation of 0.48
-
-	 Modelo: GaussianNB
-	0.70 accuracy with a standard deviation of 0.36
-	0.59 recall with a standard deviation of 0.48
-
-	 Modelo: SVC
-	0.90 accuracy with a standard deviation of 0.15
-	0.76 recall with a standard deviation of 0.39
