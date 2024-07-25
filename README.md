@@ -6,6 +6,7 @@ Este proyecto se centra en el desarrollo de modelos de aprendizaje automático p
 
 ### 📓 Notebooks
 En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los siguientes archivos:
+
 **1. Procesar los datos de los videos**
 * Descripción: Este notebook procesa archivos de datos de video en formato crudo, extrayendo información esencial sobre cada grabación, como la ID del sujeto, el número de repetición, la precisión del gesto, y la posición de los puntos clave del cuerpo. También calcula ángulos entre estos puntos para un análisis posterior.
 * Salida: Genera dos archivos CSV:\
