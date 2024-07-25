@@ -1,7 +1,5 @@
 <h1 align="center"> Inteligencia Artificial aplicada a la Telerehabilitación </h1>
 
-![Gestures](/images/gestures.png)
-
 Este proyecto se centra en el desarrollo de modelos de aprendizaje automático para clasificar distintos gestos realizados por pacientes en un entorno de telerehabilitación, así como para discernir si estos gestos están correctamente ejecutados.
 
 ## 📁 Descripción del repositorio
