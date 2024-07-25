@@ -1,3 +1,4 @@
 # no incluir la carpeta con los datos
 dataset
-csvFiles
+Resultados/raw_pacientes.csv
+Resultados/angles.csv
