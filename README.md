@@ -3,7 +3,7 @@
 Este proyecto se centra en el desarrollo de modelos de aprendizaje automático para clasificar distintos gestos realizados por pacientes en un entorno de telerehabilitación, así como para discernir si estos gestos están correctamente ejecutados.
 
 <p align="center">
-  <img src="/images/gestures.png" width="350" title="Ejercicios rehabilitación">
+  <img src="/images/gestures.png" width="400" title="Ejercicios rehabilitación">
 </p>
 
 ## 📁 Descripción del repositorio
@@ -30,7 +30,9 @@ En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los si
 **5. Fase 2: Clasificación de la ejecución del movimiento**
 * Descripción: para cada tipo de gesto identificado en la Fase 1, se desarrollan modelos de clasificación separados, para determinar si un gesto es ejecutado de manera correcta o incorrecta.
 
-![Esquema fases](/images/esquema_modelos.png)
+<p align="center">
+  <img src="/images/esquema_modelos.png" width="500" title="Esquema fases">
+</p>
 
 ### 📋 Resultados
 Aquí es donde el código guarda los archivos intermediarios y los resultados finales generados durante el procesamiento y análisis.
