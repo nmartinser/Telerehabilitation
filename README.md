@@ -3,7 +3,7 @@
 Este proyecto se centra en el desarrollo de modelos de aprendizaje automático para clasificar distintos gestos realizados por pacientes en un entorno de telerehabilitación, así como para discernir si estos gestos están correctamente ejecutados.
 
 <p align="center">
-  <img src="/images/gestures.png" width="400" title="Ejercicios rehabilitación">
+  <img src="/Imagenes/gestures.png" width="400" title="Ejercicios rehabilitación">
 </p>
 
 ## 📁 Descripción del repositorio
@@ -31,7 +31,7 @@ En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los si
 * Descripción: para cada tipo de gesto identificado en la Fase 1, se desarrollan modelos de clasificación separados, para determinar si un gesto es ejecutado de manera correcta o incorrecta.
 
 <p align="center">
-  <img src="/images/esquema_modelos.png" width="600" title="Esquema fases">
+  <img src="/Imagenes/esquema_modelos.png" width="600" title="Esquema fases">
 </p>
 
 ### 📋 Resultados
