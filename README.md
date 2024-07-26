@@ -3,7 +3,7 @@
 Este proyecto se centra en el desarrollo de modelos de aprendizaje automático para clasificar distintos gestos realizados por pacientes en un entorno de telerehabilitación, así como para discernir si estos gestos están correctamente ejecutados.
 
 <p align="center">
-  <img src="/images/esquema_modelos.png" width="350" title="Ejercicios rehabilitación">
+  <img src="/images/gestures.png" width="350" title="Ejercicios rehabilitación">
 </p>
 
 ## 📁 Descripción del repositorio
