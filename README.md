@@ -31,7 +31,7 @@ En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los si
 * Descripción: para cada tipo de gesto identificado en la Fase 1, se desarrollan modelos de clasificación separados, para determinar si un gesto es ejecutado de manera correcta o incorrecta.
 
 <p align="center">
-  <img src="/images/esquema_modelos.png" width="500" title="Esquema fases">
+  <img src="/images/esquema_modelos.png" width="600" title="Esquema fases">
 </p>
 
 ### 📋 Resultados
