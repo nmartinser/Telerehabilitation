@@ -20,20 +20,25 @@ En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los si
   _ *raw_pacientes.csv*: Contiene información detallada sobre cada grabación.\
   _ *angles.csv*: Incluye ángulos calculados entre keypoints.
 
-<summary>2. Análisis de los datos</summary>
+</details>
+
+<details><summary>2. Análisis de los datos</summary>
 
 * Descripción: análisis exploratorio de los datos procesados. Incluye visualizaciones como gráficos de barras para ver la distribución de sujetos por gesto y estado de ejecución, y gráficos de líneas para analizar los ángulos de los movimientos a lo largo del tiempo.
+</details>
 
-<summary>3. Cálculos estadísticos sobre los ángulos</summary>
+<details><summary>3. Cálculos estadísticos sobre los ángulos</summary>
 
 * Descripción: Calcula estadísticas descriptivas (mínimo, máximo, desviación estándar, media, etc.) para los ángulos de los keypoints en cada repetición de los gestos. El resultado es un DataFrame que condensa esta información en una fila por repetición.
 * Salida: medidasPerRepetition.csv``, archivo que contiene una fila por repetición y gesto, que incluye estadísticas para cada ángulo calculado.
+</details>
 
-<summary>4. Fase 1: Clasificación del movimiento</summary>
+<details><summary>4. Fase 1: Clasificación del movimiento</summary>
 
 * Descripción: Implementa, entrena y evalúa modelos de clasificación para identificar el tipo de gesto realizado por el paciente. Este notebook establece las bases para la clasificación de gestos en etapas posteriores.
+</details>
 
-<summary>5. Fase 2: Clasificación de la ejecución del movimiento</summary>
+<details><summary>5. Fase 2: Clasificación de la ejecución del movimiento</summary>
 
 * Descripción: para cada tipo de gesto identificado en la Fase 1, se desarrollan modelos de clasificación separados, para determinar si un gesto es ejecutado de manera correcta o incorrecta.
 
