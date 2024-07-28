@@ -6,6 +6,12 @@ Este proyecto se centra en el desarrollo de modelos de aprendizaje automático p
   <img src="/Imagenes/gestures.png" width="400" title="Ejercicios rehabilitación">
 </p>
 
+### [Tab A](#tab/tab-a)
+Tab A content.
+
+### [Tab B](#tab/tab-b)
+Tab B content.
+***
 ## 📁 Descripción del repositorio
 
 ### 📓 Notebooks
@@ -14,8 +20,8 @@ En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los si
 **1. Procesar los datos de los videos**
 * Descripción: Este notebook procesa archivos de datos de video en formato crudo, extrayendo información esencial sobre cada grabación, como la ID del sujeto, el número de repetición, la precisión del gesto, y la posición de los puntos clave del cuerpo. También calcula ángulos entre estos puntos para un análisis posterior.
 * Salida: Genera dos archivos CSV:\
-*raw_pacientes.csv*: Contiene información detallada sobre cada grabación.\
-*angles.csv*: Incluye ángulos calculados entre keypoints.
+  _ *raw_pacientes.csv*: Contiene información detallada sobre cada grabación.\
+  _ *angles.csv*: Incluye ángulos calculados entre keypoints.
 
 **2. Análisis de los datos**
 * Descripción: análisis exploratorio de los datos procesados. Incluye visualizaciones como gráficos de barras para ver la distribución de sujetos por gesto y estado de ejecución, y gráficos de líneas para analizar los ángulos de los movimientos a lo largo del tiempo.
