@@ -13,11 +13,14 @@ Este proyecto se centra en el desarrollo de modelos de aprendizaje automático p
 En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los siguientes archivos:
 
 <details>
-<summary>**1. Procesar los datos de los videos**</summary>
+<summary>1. Procesar los datos de los videos</summary>
+  
 * Descripción: Este notebook procesa archivos de datos de video en formato crudo, extrayendo información esencial sobre cada grabación, como la ID del sujeto, el número de repetición, la precisión del gesto, y la posición de los puntos clave del cuerpo. También calcula ángulos entre estos puntos para un análisis posterior.
+  
 * Salida: Genera dos archivos CSV:\
   _ *raw_pacientes.csv*: Contiene información detallada sobre cada grabación.\
-  _ *angles.csv*: Incluye ángulos calculados entre keypoints.</details>
+  _ *angles.csv*: Incluye ángulos calculados entre keypoints.
+</details>
 
 **2. Análisis de los datos**
 * Descripción: análisis exploratorio de los datos procesados. Incluye visualizaciones como gráficos de barras para ver la distribución de sujetos por gesto y estado de ejecución, y gráficos de líneas para analizar los ángulos de los movimientos a lo largo del tiempo.
