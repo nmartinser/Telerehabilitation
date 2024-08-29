@@ -172,3 +172,88 @@ def apply_angles(df: pd.DataFrame) -> pd.DataFrame:
     # Crear un DataFrame a partir de la lista de diccionarios
     return pd.DataFrame(angles)
 
+# Cálculos estadísticos sobre los ángulos
+def calculos_estadísticos(df:pd.DataFrame) -> pd.DataFrame:
+    """
+    Realiza cálculos estadísticos sobre los ángulos en un
+    DataFrame agrupado por sujeto, gesto y número de repetición.
+
+    Parámetros
+    ----------
+    df : pd.DataFrame
+        DataFrame que contiene información sobre los ángulos,
+        así como otras columnas relacionadas con el sujeto,
+        gesto, repetición, etc.
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame que contiene las estadísticas descriptivas
+        calculadas para cada grupo de ángulos, con una fila por
+        combinación de sujeto, gesto y repetición.
+    """
+
+    # Agrupa el DataFrame 
+    groups = df.groupby(["SubjectID", "GestureLabel", "RepetitionNumber"])
+
+    # Lista para almacenar los datos de salida
+    data = []
+
+    # Itera sobre cada grupo
+    for (subject_id, gesture_label, repetition_number), group in groups:
+        # Selecciona solo las columnas que contienen los ángulos 
+        angles = group.iloc[:, 6:]
+
+        # Calcula la media y la desviación estándar para los ángulos
+        means = angles.mean()
+        std_devs = angles.std()
+
+        # Almacena las estadísticas en un diccionario 
+        data.append({
+            'SubjectID': subject_id,
+            'GestureLabel': gesture_label,
+            'GestureName': group['GestureName'].iloc[0],
+            'RepetitionNumber': repetition_number,
+            'CorrectLabel': group['CorrectLabel'].iloc[0],
+            'Position': group['Position'].iloc[0],
+            'Duration': len(group),  # Duración en número de frames
+            'standardDeviation': std_devs,
+            'Maximum': angles.max(),
+            'Minimum': angles.min(),
+            'Mean': means,
+            'Range': angles.max() - angles.min(),
+            'Variance': angles.var(),
+            'CoV': std_devs / means,  # Coeficiente de variación
+            'Skewness': angles.skew(),  # Asimetría
+            'Kurtosis': angles.kurtosis()  # Curtosis
+        })
+
+    # Convierte la lista de diccionarios en un DataFrame y lo ordena
+    df_stats = pd.DataFrame(data)
+    df_stats = df_stats.sort_values(['SubjectID', 'GestureLabel', 'RepetitionNumber'])
+
+    return df_stats
+
+
+# Función para formatear columnas que contienen diccionarios
+def formatear_columnas(columna:pd.Series, nombre_columna:str) -> pd.DataFrame: 
+    '''
+    Esta función toma una columna de un DataFrame que contiene diccionarios
+    y expande cada diccionario en nuevas columnas, donde cada nueva columna
+    corresponde a:  clave del diccionario + _ + nombre de la columna original. 
+
+    Parámetro
+    --------
+    nombre_columna : str
+        Nombre de la columna del DataFrame que contiene los diccionarios.
+
+    Return
+    --------
+     Un nuevo DataFrame con columnas separadas para cada clave de los diccionarios.
+    '''
+    keys = set().union(*(d.keys() for d in columna))
+    data = {}
+    for key in keys:
+        data[key + '_' + nombre_columna] = columna.apply(lambda x: x.get(key))
+    return pd.DataFrame(data)
+
