@@ -38,7 +38,7 @@ En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los si
 
 * Descripción: para cada tipo de gesto identificado en la Fase 1, se desarrollan modelos de clasificación separados, para determinar si un gesto es ejecutado de manera correcta o incorrecta.
 * Salida:\
-  _ Los resultados detallados del ajuste de modelos tras aplicar varias técnica de balanceo de datos se almacenan en el archivo *Results_imblearn.txt* 
+  _ Los resultados detallados del ajuste de modelos tras aplicar varias técnica de balanceo de datos se almacenan en el archivo *Results_imblearn.txt* \
   _ Nueve archivos *.sav*, uno para cada gesto, que almacenan el pipeline completo de clasificación entrenado, incluyendo tanto el preprocesamiento como el modelo final.
   
 
