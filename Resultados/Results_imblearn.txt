@@ -12,8 +12,8 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.99
 AUC del conjunto de prueba: 0.93
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.85 con una desviacion estandar de 0.29
-F1-score media: 0.79 con una desviacion estandar de 0.36
+Precision media: 0.83 con una desviacion estandar de 0.26
+F1-score media: 0.81 con una desviacion estandar de 0.37
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.81
 AUC del conjunto de prueba: 0.69
 
@@ -30,10 +30,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.78
 AUC del conjunto de prueba: 0.93
 
 Modelo: RandomForestClassifier
-Precision media: 0.86 con una desviacion estandar de 0.21
-F1-score media: 0.79 con una desviacion estandar de 0.36
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
-AUC del conjunto de prueba: 0.93
+Precision media: 0.83 con una desviacion estandar de 0.29
+F1-score media: 0.76 con una desviacion estandar de 0.36
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
+AUC del conjunto de prueba: 0.89
 
 Modelo: LogisticRegression
 Precision media: 0.84 con una desviacion estandar de 0.26
@@ -52,10 +52,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.95
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.86 con una desviacion estandar de 0.24
-F1-score media: 0.78 con una desviacion estandar de 0.36
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
-AUC del conjunto de prueba: 0.87
+Precision media: 0.88 con una desviacion estandar de 0.24
+F1-score media: 0.84 con una desviacion estandar de 0.32
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
+AUC del conjunto de prueba: 0.92
 
 Modelo: GaussianNB
 Precision media: 0.83 con una desviacion estandar de 0.32
@@ -70,10 +70,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 1.00
 
 Modelo: RandomForestClassifier
-Precision media: 0.93 con una desviacion estandar de 0.15
-F1-score media: 0.86 con una desviacion estandar de 0.32
+Precision media: 0.91 con una desviacion estandar de 0.21
+F1-score media: 0.86 con una desviacion estandar de 0.31
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.91
+AUC del conjunto de prueba: 0.92
 
 Modelo: LogisticRegression
 Precision media: 0.90 con una desviacion estandar de 0.20
@@ -86,158 +86,158 @@ Distribucion de etiquetas antes del resampling: Counter({1: 147, 2: 33})
 Distribucion de etiquetas despues del resampling: Counter({2: 149, 1: 147})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.88 con una desviacion estandar de 0.17
-F1-score media: 0.65 con una desviacion estandar de 0.42
+Precision media: 0.86 con una desviacion estandar de 0.20
+F1-score media: 0.64 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.81
-AUC del conjunto de prueba: 0.95
+AUC del conjunto de prueba: 0.97
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.94 con una desviacion estandar de 0.13
-F1-score media: 0.71 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
-AUC del conjunto de prueba: 0.66
+Precision media: 0.86 con una desviacion estandar de 0.20
+F1-score media: 0.70 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.79
+AUC del conjunto de prueba: 0.57
 
 Modelo: GaussianNB
-Precision media: 0.79 con una desviacion estandar de 0.31
-F1-score media: 0.63 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
-AUC del conjunto de prueba: 0.79
+Precision media: 0.79 con una desviacion estandar de 0.30
+F1-score media: 0.64 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
+AUC del conjunto de prueba: 0.78
 
 Modelo: SVC
-Precision media: 0.87 con una desviacion estandar de 0.22
+Precision media: 0.86 con una desviacion estandar de 0.24
 F1-score media: 0.64 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 1.00
 
 Modelo: RandomForestClassifier
-Precision media: 0.92 con una desviacion estandar de 0.21
-F1-score media: 0.65 con una desviacion estandar de 0.46
+Precision media: 0.93 con una desviacion estandar de 0.18
+F1-score media: 0.68 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
-AUC del conjunto de prueba: 0.92
+AUC del conjunto de prueba: 0.89
 
 Modelo: LogisticRegression
-Precision media: 0.92 con una desviacion estandar de 0.18
+Precision media: 0.92 con una desviacion estandar de 0.19
 F1-score media: 0.65 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
-AUC del conjunto de prueba: 0.74
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
+AUC del conjunto de prueba: 0.76
 
 	- Tecnica de Resampling: SMOTE
 Distribucion de etiquetas antes del resampling: Counter({1: 147, 2: 33})
 Distribucion de etiquetas despues del resampling: Counter({1: 147, 2: 147})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.91 con una desviacion estandar de 0.17
-F1-score media: 0.70 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
-AUC del conjunto de prueba: 0.93
+Precision media: 0.85 con una desviacion estandar de 0.23
+F1-score media: 0.73 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+AUC del conjunto de prueba: 0.98
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.94 con una desviacion estandar de 0.15
-F1-score media: 0.73 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.83
+Precision media: 0.88 con una desviacion estandar de 0.22
+F1-score media: 0.76 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.78
+AUC del conjunto de prueba: 0.54
 
 Modelo: GaussianNB
-Precision media: 0.82 con una desviacion estandar de 0.31
-F1-score media: 0.68 con una desviacion estandar de 0.43
+Precision media: 0.80 con una desviacion estandar de 0.33
+F1-score media: 0.71 con una desviacion estandar de 0.41
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.78
 AUC del conjunto de prueba: 0.69
 
 Modelo: SVC
-Precision media: 0.91 con una desviacion estandar de 0.17
-F1-score media: 0.70 con una desviacion estandar de 0.41
+Precision media: 0.87 con una desviacion estandar de 0.21
+F1-score media: 0.74 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 1.00
 
 Modelo: RandomForestClassifier
-Precision media: 0.92 con una desviacion estandar de 0.19
-F1-score media: 0.71 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.84
-AUC del conjunto de prueba: 0.90
+Precision media: 0.87 con una desviacion estandar de 0.23
+F1-score media: 0.75 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
+AUC del conjunto de prueba: 0.92
 
 Modelo: LogisticRegression
-Precision media: 0.94 con una desviacion estandar de 0.18
-F1-score media: 0.70 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
-AUC del conjunto de prueba: 0.76
+Precision media: 0.92 con una desviacion estandar de 0.19
+F1-score media: 0.73 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
+AUC del conjunto de prueba: 0.80
 
 	- Tecnica de Resampling: SMOTETomek
 Distribucion de etiquetas antes del resampling: Counter({1: 147, 2: 33})
 Distribucion de etiquetas despues del resampling: Counter({1: 147, 2: 147})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.86 con una desviacion estandar de 0.19
-F1-score media: 0.71 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
-AUC del conjunto de prueba: 0.94
+Precision media: 0.88 con una desviacion estandar de 0.20
+F1-score media: 0.73 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
+AUC del conjunto de prueba: 0.93
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.85 con una desviacion estandar de 0.21
-F1-score media: 0.74 con una desviacion estandar de 0.38
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
-AUC del conjunto de prueba: 0.69
+Precision media: 0.86 con una desviacion estandar de 0.26
+F1-score media: 0.76 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
+AUC del conjunto de prueba: 0.87
 
 Modelo: GaussianNB
-Precision media: 0.85 con una desviacion estandar de 0.27
-F1-score media: 0.71 con una desviacion estandar de 0.41
+Precision media: 0.78 con una desviacion estandar de 0.35
+F1-score media: 0.70 con una desviacion estandar de 0.41
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
-AUC del conjunto de prueba: 0.68
+AUC del conjunto de prueba: 0.72
 
 Modelo: SVC
-Precision media: 0.89 con una desviacion estandar de 0.17
-F1-score media: 0.73 con una desviacion estandar de 0.38
+Precision media: 0.86 con una desviacion estandar de 0.21
+F1-score media: 0.73 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 1.00
 
 Modelo: RandomForestClassifier
-Precision media: 0.94 con una desviacion estandar de 0.16
-F1-score media: 0.77 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.84
-AUC del conjunto de prueba: 0.89
+Precision media: 0.94 con una desviacion estandar de 0.13
+F1-score media: 0.75 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
+AUC del conjunto de prueba: 0.93
 
 Modelo: LogisticRegression
-Precision media: 0.91 con una desviacion estandar de 0.21
-F1-score media: 0.72 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
+Precision media: 0.92 con una desviacion estandar de 0.20
+F1-score media: 0.71 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
 AUC del conjunto de prueba: 0.73
 
 	- Tecnica de Resampling: SMOTEENN
 Distribucion de etiquetas antes del resampling: Counter({1: 147, 2: 33})
-Distribucion de etiquetas despues del resampling: Counter({2: 141, 1: 138})
+Distribucion de etiquetas despues del resampling: Counter({2: 139, 1: 135})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.93 con una desviacion estandar de 0.14
-F1-score media: 0.80 con una desviacion estandar de 0.37
+Precision media: 0.93 con una desviacion estandar de 0.15
+F1-score media: 0.76 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 0.95
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.76 con una desviacion estandar de 0.37
-F1-score media: 0.66 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
-AUC del conjunto de prueba: 0.91
+Precision media: 0.80 con una desviacion estandar de 0.33
+F1-score media: 0.75 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
+AUC del conjunto de prueba: 0.95
 
 Modelo: GaussianNB
-Precision media: 0.84 con una desviacion estandar de 0.31
-F1-score media: 0.75 con una desviacion estandar de 0.40
+Precision media: 0.84 con una desviacion estandar de 0.30
+F1-score media: 0.72 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.78
 AUC del conjunto de prueba: 0.62
 
 Modelo: SVC
-Precision media: 0.94 con una desviacion estandar de 0.14
-F1-score media: 0.80 con una desviacion estandar de 0.37
+Precision media: 0.94 con una desviacion estandar de 0.15
+F1-score media: 0.77 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 1.00
 
 Modelo: RandomForestClassifier
-Precision media: 0.90 con una desviacion estandar de 0.25
-F1-score media: 0.81 con una desviacion estandar de 0.36
+Precision media: 0.88 con una desviacion estandar de 0.27
+F1-score media: 0.77 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
-AUC del conjunto de prueba: 0.96
+AUC del conjunto de prueba: 0.95
 
 Modelo: LogisticRegression
-Precision media: 0.96 con una desviacion estandar de 0.13
-F1-score media: 0.82 con una desviacion estandar de 0.37
+Precision media: 0.93 con una desviacion estandar de 0.15
+F1-score media: 0.77 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 0.92
 
@@ -254,10 +254,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
 AUC del conjunto de prueba: 0.83
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.46 con una desviacion estandar de 0.35
-F1-score media: 0.33 con una desviacion estandar de 0.37
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.79
-AUC del conjunto de prueba: 0.62
+Precision media: 0.34 con una desviacion estandar de 0.33
+F1-score media: 0.33 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.78
+AUC del conjunto de prueba: 0.64
 
 Modelo: GaussianNB
 Precision media: 0.77 con una desviacion estandar de 0.35
@@ -274,14 +274,14 @@ AUC del conjunto de prueba: 0.84
 Modelo: RandomForestClassifier
 Precision media: 0.49 con una desviacion estandar de 0.40
 F1-score media: 0.47 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.84
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
+AUC del conjunto de prueba: 0.82
 
 Modelo: LogisticRegression
-Precision media: 0.60 con una desviacion estandar de 0.42
-F1-score media: 0.42 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
-AUC del conjunto de prueba: 0.86
+Precision media: 0.61 con una desviacion estandar de 0.43
+F1-score media: 0.47 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.81
+AUC del conjunto de prueba: 0.88
 
 	- Tecnica de Resampling: EditedNearestNeighbours
 Distribucion de etiquetas antes del resampling: Counter({1: 146, 2: 33})
@@ -294,8 +294,8 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
 AUC del conjunto de prueba: 0.83
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.83 con una desviacion estandar de 0.27
-F1-score media: 0.78 con una desviacion estandar de 0.36
+Precision media: 0.84 con una desviacion estandar de 0.25
+F1-score media: 0.76 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
 AUC del conjunto de prueba: 0.78
 
@@ -312,15 +312,15 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
 AUC del conjunto de prueba: 0.92
 
 Modelo: RandomForestClassifier
-Precision media: 0.88 con una desviacion estandar de 0.27
-F1-score media: 0.84 con una desviacion estandar de 0.35
+Precision media: 0.87 con una desviacion estandar de 0.30
+F1-score media: 0.83 con una desviacion estandar de 0.35
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
-AUC del conjunto de prueba: 0.81
+AUC del conjunto de prueba: 0.80
 
 Modelo: LogisticRegression
 Precision media: 0.89 con una desviacion estandar de 0.25
 F1-score media: 0.80 con una desviacion estandar de 0.37
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.84
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.83
 AUC del conjunto de prueba: 0.63
 
 	- Tecnica de Resampling: ADASYN
@@ -328,160 +328,160 @@ Distribucion de etiquetas antes del resampling: Counter({1: 146, 2: 33})
 Distribucion de etiquetas despues del resampling: Counter({1: 146, 2: 143})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.89 con una desviacion estandar de 0.15
-F1-score media: 0.65 con una desviacion estandar de 0.42
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
-AUC del conjunto de prueba: 0.91
+Precision media: 0.88 con una desviacion estandar de 0.17
+F1-score media: 0.68 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
+AUC del conjunto de prueba: 0.93
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.83 con una desviacion estandar de 0.26
-F1-score media: 0.59 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
-AUC del conjunto de prueba: 0.79
+Precision media: 0.80 con una desviacion estandar de 0.25
+F1-score media: 0.65 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
+AUC del conjunto de prueba: 0.83
 
 Modelo: GaussianNB
-Precision media: 0.90 con una desviacion estandar de 0.18
-F1-score media: 0.66 con una desviacion estandar de 0.42
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.78
-AUC del conjunto de prueba: 0.53
+Precision media: 0.90 con una desviacion estandar de 0.19
+F1-score media: 0.73 con una desviacion estandar de 0.37
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
+AUC del conjunto de prueba: 0.62
 
 Modelo: SVC
-Precision media: 0.89 con una desviacion estandar de 0.21
-F1-score media: 0.70 con una desviacion estandar de 0.38
+Precision media: 0.89 con una desviacion estandar de 0.18
+F1-score media: 0.73 con una desviacion estandar de 0.36
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
-AUC del conjunto de prueba: 0.94
+AUC del conjunto de prueba: 0.93
 
 Modelo: RandomForestClassifier
-Precision media: 0.94 con una desviacion estandar de 0.15
-F1-score media: 0.72 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
-AUC del conjunto de prueba: 0.88
+Precision media: 0.94 con una desviacion estandar de 0.11
+F1-score media: 0.77 con una desviacion estandar de 0.38
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
+AUC del conjunto de prueba: 0.87
 
 Modelo: LogisticRegression
-Precision media: 0.90 con una desviacion estandar de 0.18
-F1-score media: 0.70 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
-AUC del conjunto de prueba: 0.58
+Precision media: 0.95 con una desviacion estandar de 0.09
+F1-score media: 0.77 con una desviacion estandar de 0.35
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
+AUC del conjunto de prueba: 0.48
 
 	- Tecnica de Resampling: SMOTE
 Distribucion de etiquetas antes del resampling: Counter({1: 146, 2: 33})
 Distribucion de etiquetas despues del resampling: Counter({1: 146, 2: 146})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.88 con una desviacion estandar de 0.17
-F1-score media: 0.69 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
-AUC del conjunto de prueba: 0.91
-
-Modelo: DecisionTreeClassifier
-Precision media: 0.87 con una desviacion estandar de 0.15
-F1-score media: 0.65 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.75
-AUC del conjunto de prueba: 0.53
-
-Modelo: GaussianNB
-Precision media: 0.90 con una desviacion estandar de 0.19
-F1-score media: 0.72 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
-AUC del conjunto de prueba: 0.66
-
-Modelo: SVC
-Precision media: 0.91 con una desviacion estandar de 0.15
-F1-score media: 0.76 con una desviacion estandar de 0.36
+Precision media: 0.92 con una desviacion estandar de 0.10
+F1-score media: 0.71 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
 AUC del conjunto de prueba: 0.92
 
-Modelo: RandomForestClassifier
-Precision media: 0.92 con una desviacion estandar de 0.13
-F1-score media: 0.76 con una desviacion estandar de 0.36
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.88
-
-Modelo: LogisticRegression
-Precision media: 0.92 con una desviacion estandar de 0.12
-F1-score media: 0.74 con una desviacion estandar de 0.36
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
-AUC del conjunto de prueba: 0.57
-
-	- Tecnica de Resampling: SMOTETomek
-Distribucion de etiquetas antes del resampling: Counter({1: 146, 2: 33})
-Distribucion de etiquetas despues del resampling: Counter({1: 146, 2: 146})
-
-Modelo: KNeighborsClassifier
-Precision media: 0.92 con una desviacion estandar de 0.10
-F1-score media: 0.72 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.92
-
 Modelo: DecisionTreeClassifier
-Precision media: 0.74 con una desviacion estandar de 0.31
-F1-score media: 0.63 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.74
-AUC del conjunto de prueba: 0.46
+Precision media: 0.87 con una desviacion estandar de 0.21
+F1-score media: 0.69 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.75
+AUC del conjunto de prueba: 0.47
 
 Modelo: GaussianNB
-Precision media: 0.92 con una desviacion estandar de 0.19
-F1-score media: 0.73 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
-AUC del conjunto de prueba: 0.66
+Precision media: 0.90 con una desviacion estandar de 0.20
+F1-score media: 0.70 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
+AUC del conjunto de prueba: 0.70
 
 Modelo: SVC
-Precision media: 0.91 con una desviacion estandar de 0.17
-F1-score media: 0.76 con una desviacion estandar de 0.35
+Precision media: 0.90 con una desviacion estandar de 0.17
+F1-score media: 0.73 con una desviacion estandar de 0.38
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
 AUC del conjunto de prueba: 0.93
 
 Modelo: RandomForestClassifier
-Precision media: 0.91 con una desviacion estandar de 0.17
-F1-score media: 0.75 con una desviacion estandar de 0.37
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.87
+Precision media: 0.87 con una desviacion estandar de 0.23
+F1-score media: 0.71 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
+AUC del conjunto de prueba: 0.82
 
 Modelo: LogisticRegression
-Precision media: 0.95 con una desviacion estandar de 0.11
-F1-score media: 0.76 con una desviacion estandar de 0.37
+Precision media: 0.89 con una desviacion estandar de 0.22
+F1-score media: 0.72 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
+AUC del conjunto de prueba: 0.53
+
+	- Tecnica de Resampling: SMOTETomek
+Distribucion de etiquetas antes del resampling: Counter({1: 146, 2: 33})
+Distribucion de etiquetas despues del resampling: Counter({1: 145, 2: 145})
+
+Modelo: KNeighborsClassifier
+Precision media: 0.92 con una desviacion estandar de 0.10
+F1-score media: 0.71 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+AUC del conjunto de prueba: 0.92
+
+Modelo: DecisionTreeClassifier
+Precision media: 0.83 con una desviacion estandar de 0.26
+F1-score media: 0.69 con una desviacion estandar de 0.38
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+AUC del conjunto de prueba: 0.75
+
+Modelo: GaussianNB
+Precision media: 0.90 con una desviacion estandar de 0.20
+F1-score media: 0.70 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+AUC del conjunto de prueba: 0.66
+
+Modelo: SVC
+Precision media: 0.89 con una desviacion estandar de 0.23
+F1-score media: 0.75 con una desviacion estandar de 0.38
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
+AUC del conjunto de prueba: 0.93
+
+Modelo: RandomForestClassifier
+Precision media: 0.94 con una desviacion estandar de 0.12
+F1-score media: 0.68 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
+AUC del conjunto de prueba: 0.91
+
+Modelo: LogisticRegression
+Precision media: 0.90 con una desviacion estandar de 0.18
+F1-score media: 0.71 con una desviacion estandar de 0.41
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
-AUC del conjunto de prueba: 0.56
+AUC del conjunto de prueba: 0.55
 
 	- Tecnica de Resampling: SMOTEENN
 Distribucion de etiquetas antes del resampling: Counter({1: 146, 2: 33})
-Distribucion de etiquetas despues del resampling: Counter({2: 136, 1: 126})
+Distribucion de etiquetas despues del resampling: Counter({2: 138, 1: 124})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.92 con una desviacion estandar de 0.14
-F1-score media: 0.67 con una desviacion estandar de 0.42
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.90
+Precision media: 0.93 con una desviacion estandar de 0.13
+F1-score media: 0.73 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+AUC del conjunto de prueba: 0.91
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.89 con una desviacion estandar de 0.19
-F1-score media: 0.57 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
-AUC del conjunto de prueba: 0.84
+Precision media: 0.91 con una desviacion estandar de 0.20
+F1-score media: 0.64 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+AUC del conjunto de prueba: 0.86
 
 Modelo: GaussianNB
-Precision media: 0.96 con una desviacion estandar de 0.11
-F1-score media: 0.70 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
-AUC del conjunto de prueba: 0.71
+Precision media: 0.95 con una desviacion estandar de 0.11
+F1-score media: 0.75 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
+AUC del conjunto de prueba: 0.50
 
 Modelo: SVC
-Precision media: 0.92 con una desviacion estandar de 0.19
-F1-score media: 0.69 con una desviacion estandar de 0.43
+Precision media: 0.89 con una desviacion estandar de 0.24
+F1-score media: 0.74 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
-AUC del conjunto de prueba: 0.92
+AUC del conjunto de prueba: 0.93
 
 Modelo: RandomForestClassifier
-Precision media: 0.95 con una desviacion estandar de 0.10
-F1-score media: 0.70 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+Precision media: 0.96 con una desviacion estandar de 0.16
+F1-score media: 0.75 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
 AUC del conjunto de prueba: 0.85
 
 Modelo: LogisticRegression
-Precision media: 0.95 con una desviacion estandar de 0.12
-F1-score media: 0.71 con una desviacion estandar de 0.44
+Precision media: 0.96 con una desviacion estandar de 0.11
+F1-score media: 0.75 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.83
-AUC del conjunto de prueba: 0.60
+AUC del conjunto de prueba: 0.61
 
 ------------ CLASIFICACION GESTO SFL -----------
 
@@ -496,10 +496,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 0.98
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.83 con una desviacion estandar de 0.26
-F1-score media: 0.76 con una desviacion estandar de 0.36
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
-AUC del conjunto de prueba: 0.90
+Precision media: 0.84 con una desviacion estandar de 0.27
+F1-score media: 0.73 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
+AUC del conjunto de prueba: 0.94
 
 Modelo: GaussianNB
 Precision media: 0.82 con una desviacion estandar de 0.28
@@ -514,15 +514,15 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
 AUC del conjunto de prueba: 0.99
 
 Modelo: RandomForestClassifier
-Precision media: 0.88 con una desviacion estandar de 0.20
+Precision media: 0.81 con una desviacion estandar de 0.29
 F1-score media: 0.78 con una desviacion estandar de 0.36
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
 AUC del conjunto de prueba: 1.00
 
 Modelo: LogisticRegression
-Precision media: 0.81 con una desviacion estandar de 0.27
-F1-score media: 0.73 con una desviacion estandar de 0.36
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+Precision media: 0.82 con una desviacion estandar de 0.26
+F1-score media: 0.73 con una desviacion estandar de 0.35
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
 AUC del conjunto de prueba: 0.95
 
 	- Tecnica de Resampling: EditedNearestNeighbours
@@ -536,10 +536,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
 AUC del conjunto de prueba: 0.96
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.80 con una desviacion estandar de 0.32
+Precision media: 0.78 con una desviacion estandar de 0.33
 F1-score media: 0.71 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.84
-AUC del conjunto de prueba: 0.84
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
+AUC del conjunto de prueba: 0.85
 
 Modelo: GaussianNB
 Precision media: 0.79 con una desviacion estandar de 0.31
@@ -557,12 +557,12 @@ Modelo: RandomForestClassifier
 Precision media: 0.90 con una desviacion estandar de 0.23
 F1-score media: 0.77 con una desviacion estandar de 0.38
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
-AUC del conjunto de prueba: 1.00
+AUC del conjunto de prueba: 0.99
 
 Modelo: LogisticRegression
 Precision media: 0.86 con una desviacion estandar de 0.27
 F1-score media: 0.77 con una desviacion estandar de 0.38
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
 AUC del conjunto de prueba: 0.95
 
 	- Tecnica de Resampling: ADASYN
@@ -570,158 +570,158 @@ Distribucion de etiquetas antes del resampling: Counter({1: 164, 2: 111})
 Distribucion de etiquetas despues del resampling: Counter({1: 164, 2: 159})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.85 con una desviacion estandar de 0.24
-F1-score media: 0.61 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
-AUC del conjunto de prueba: 0.98
+Precision media: 0.89 con una desviacion estandar de 0.21
+F1-score media: 0.66 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
+AUC del conjunto de prueba: 0.97
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.82 con una desviacion estandar de 0.25
-F1-score media: 0.59 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
-AUC del conjunto de prueba: 0.93
+Precision media: 0.82 con una desviacion estandar de 0.31
+F1-score media: 0.63 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
+AUC del conjunto de prueba: 0.91
 
 Modelo: GaussianNB
-Precision media: 0.68 con una desviacion estandar de 0.37
-F1-score media: 0.63 con una desviacion estandar de 0.41
+Precision media: 0.72 con una desviacion estandar de 0.34
+F1-score media: 0.65 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.94
+AUC del conjunto de prueba: 0.93
 
 Modelo: SVC
-Precision media: 0.86 con una desviacion estandar de 0.23
-F1-score media: 0.61 con una desviacion estandar de 0.43
+Precision media: 0.86 con una desviacion estandar de 0.25
+F1-score media: 0.64 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
-AUC del conjunto de prueba: 0.99
+AUC del conjunto de prueba: 0.98
 
 Modelo: RandomForestClassifier
-Precision media: 0.86 con una desviacion estandar de 0.26
-F1-score media: 0.63 con una desviacion estandar de 0.44
+Precision media: 0.85 con una desviacion estandar de 0.29
+F1-score media: 0.69 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 0.99
 
 Modelo: LogisticRegression
-Precision media: 0.89 con una desviacion estandar de 0.20
-F1-score media: 0.64 con una desviacion estandar de 0.42
+Precision media: 0.89 con una desviacion estandar de 0.19
+F1-score media: 0.68 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.95
+AUC del conjunto de prueba: 0.93
 
 	- Tecnica de Resampling: SMOTE
 Distribucion de etiquetas antes del resampling: Counter({1: 164, 2: 111})
 Distribucion de etiquetas despues del resampling: Counter({1: 164, 2: 164})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.87 con una desviacion estandar de 0.20
-F1-score media: 0.75 con una desviacion estandar de 0.35
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
+Precision media: 0.86 con una desviacion estandar de 0.21
+F1-score media: 0.68 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
 AUC del conjunto de prueba: 0.98
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.81 con una desviacion estandar de 0.27
-F1-score media: 0.73 con una desviacion estandar de 0.37
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
-AUC del conjunto de prueba: 0.93
+Precision media: 0.80 con una desviacion estandar de 0.29
+F1-score media: 0.63 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
+AUC del conjunto de prueba: 0.91
 
 Modelo: GaussianNB
-Precision media: 0.78 con una desviacion estandar de 0.32
-F1-score media: 0.72 con una desviacion estandar de 0.38
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.95
+Precision media: 0.75 con una desviacion estandar de 0.32
+F1-score media: 0.65 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
+AUC del conjunto de prueba: 0.94
 
 Modelo: SVC
-Precision media: 0.88 con una desviacion estandar de 0.24
-F1-score media: 0.73 con una desviacion estandar de 0.40
+Precision media: 0.88 con una desviacion estandar de 0.23
+F1-score media: 0.66 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
-AUC del conjunto de prueba: 0.99
+AUC del conjunto de prueba: 1.00
 
 Modelo: RandomForestClassifier
-Precision media: 0.83 con una desviacion estandar de 0.30
-F1-score media: 0.73 con una desviacion estandar de 0.40
+Precision media: 0.89 con una desviacion estandar de 0.22
+F1-score media: 0.68 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 1.00
 
 Modelo: LogisticRegression
-Precision media: 0.87 con una desviacion estandar de 0.24
-F1-score media: 0.71 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
-AUC del conjunto de prueba: 0.96
+Precision media: 0.89 con una desviacion estandar de 0.23
+F1-score media: 0.66 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
+AUC del conjunto de prueba: 0.95
 
 	- Tecnica de Resampling: SMOTETomek
 Distribucion de etiquetas antes del resampling: Counter({1: 164, 2: 111})
 Distribucion de etiquetas despues del resampling: Counter({1: 163, 2: 163})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.88 con una desviacion estandar de 0.22
-F1-score media: 0.76 con una desviacion estandar de 0.36
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
+Precision media: 0.87 con una desviacion estandar de 0.24
+F1-score media: 0.80 con una desviacion estandar de 0.34
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
 AUC del conjunto de prueba: 0.98
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.83 con una desviacion estandar de 0.30
-F1-score media: 0.66 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.91
-
-Modelo: GaussianNB
-Precision media: 0.84 con una desviacion estandar de 0.28
-F1-score media: 0.73 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
-AUC del conjunto de prueba: 0.96
-
-Modelo: SVC
-Precision media: 0.91 con una desviacion estandar de 0.21
-F1-score media: 0.76 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
-AUC del conjunto de prueba: 1.00
-
-Modelo: RandomForestClassifier
-Precision media: 0.88 con una desviacion estandar de 0.23
-F1-score media: 0.76 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
-AUC del conjunto de prueba: 1.00
-
-Modelo: LogisticRegression
-Precision media: 0.89 con una desviacion estandar de 0.23
-F1-score media: 0.74 con una desviacion estandar de 0.37
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
+Precision media: 0.70 con una desviacion estandar de 0.37
+F1-score media: 0.64 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.93
 
-	- Tecnica de Resampling: SMOTEENN
-Distribucion de etiquetas antes del resampling: Counter({1: 164, 2: 111})
-Distribucion de etiquetas despues del resampling: Counter({2: 147, 1: 143})
-
-Modelo: KNeighborsClassifier
-Precision media: 0.98 con una desviacion estandar de 0.09
-F1-score media: 0.77 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
-AUC del conjunto de prueba: 0.96
-
-Modelo: DecisionTreeClassifier
-Precision media: 0.85 con una desviacion estandar de 0.34
-F1-score media: 0.69 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.91
-
 Modelo: GaussianNB
-Precision media: 0.75 con una desviacion estandar de 0.37
-F1-score media: 0.65 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.96
+Precision media: 0.79 con una desviacion estandar de 0.33
+F1-score media: 0.72 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
+AUC del conjunto de prueba: 0.93
 
 Modelo: SVC
-Precision media: 0.94 con una desviacion estandar de 0.21
-F1-score media: 0.73 con una desviacion estandar de 0.43
+Precision media: 0.87 con una desviacion estandar de 0.27
+F1-score media: 0.75 con una desviacion estandar de 0.38
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
 AUC del conjunto de prueba: 0.99
 
 Modelo: RandomForestClassifier
-Precision media: 0.91 con una desviacion estandar de 0.28
-F1-score media: 0.73 con una desviacion estandar de 0.44
+Precision media: 0.81 con una desviacion estandar de 0.32
+F1-score media: 0.76 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
+AUC del conjunto de prueba: 0.99
+
+Modelo: LogisticRegression
+Precision media: 0.88 con una desviacion estandar de 0.24
+F1-score media: 0.74 con una desviacion estandar de 0.37
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.84
+AUC del conjunto de prueba: 0.91
+
+	- Tecnica de Resampling: SMOTEENN
+Distribucion de etiquetas antes del resampling: Counter({1: 164, 2: 111})
+Distribucion de etiquetas despues del resampling: Counter({2: 145, 1: 139})
+
+Modelo: KNeighborsClassifier
+Precision media: 0.97 con una desviacion estandar de 0.10
+F1-score media: 0.84 con una desviacion estandar de 0.35
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
+AUC del conjunto de prueba: 0.96
+
+Modelo: DecisionTreeClassifier
+Precision media: 0.82 con una desviacion estandar de 0.34
+F1-score media: 0.77 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
+AUC del conjunto de prueba: 0.95
+
+Modelo: GaussianNB
+Precision media: 0.84 con una desviacion estandar de 0.30
+F1-score media: 0.72 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
+AUC del conjunto de prueba: 0.95
+
+Modelo: SVC
+Precision media: 0.95 con una desviacion estandar de 0.17
+F1-score media: 0.80 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
+AUC del conjunto de prueba: 0.99
+
+Modelo: RandomForestClassifier
+Precision media: 0.89 con una desviacion estandar de 0.29
+F1-score media: 0.79 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 1.00
 
 Modelo: LogisticRegression
-Precision media: 0.95 con una desviacion estandar de 0.20
-F1-score media: 0.73 con una desviacion estandar de 0.44
+Precision media: 0.95 con una desviacion estandar de 0.16
+F1-score media: 0.81 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 0.99
 
@@ -738,10 +738,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.95
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.86 con una desviacion estandar de 0.24
-F1-score media: 0.78 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.74
-AUC del conjunto de prueba: 0.70
+Precision media: 0.87 con una desviacion estandar de 0.27
+F1-score media: 0.76 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
+AUC del conjunto de prueba: 0.76
 
 Modelo: GaussianNB
 Precision media: 0.79 con una desviacion estandar de 0.33
@@ -759,12 +759,12 @@ Modelo: RandomForestClassifier
 Precision media: 0.91 con una desviacion estandar de 0.22
 F1-score media: 0.77 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
-AUC del conjunto de prueba: 0.98
+AUC del conjunto de prueba: 0.99
 
 Modelo: LogisticRegression
-Precision media: 0.84 con una desviacion estandar de 0.30
+Precision media: 0.84 con una desviacion estandar de 0.31
 F1-score media: 0.76 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.97
 
 	- Tecnica de Resampling: EditedNearestNeighbours
@@ -778,10 +778,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.95
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.84 con una desviacion estandar de 0.30
-F1-score media: 0.74 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
-AUC del conjunto de prueba: 0.91
+Precision media: 0.82 con una desviacion estandar de 0.31
+F1-score media: 0.76 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
+AUC del conjunto de prueba: 0.95
 
 Modelo: GaussianNB
 Precision media: 0.81 con una desviacion estandar de 0.31
@@ -799,11 +799,11 @@ Modelo: RandomForestClassifier
 Precision media: 0.90 con una desviacion estandar de 0.25
 F1-score media: 0.76 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
-AUC del conjunto de prueba: 0.98
+AUC del conjunto de prueba: 0.96
 
 Modelo: LogisticRegression
-Precision media: 0.83 con una desviacion estandar de 0.31
-F1-score media: 0.76 con una desviacion estandar de 0.39
+Precision media: 0.81 con una desviacion estandar de 0.32
+F1-score media: 0.74 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
 AUC del conjunto de prueba: 0.96
 
@@ -812,39 +812,39 @@ Distribucion de etiquetas antes del resampling: Counter({1: 144, 2: 88})
 Distribucion de etiquetas despues del resampling: Counter({1: 144, 2: 143})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.92 con una desviacion estandar de 0.23
-F1-score media: 0.72 con una desviacion estandar de 0.43
+Precision media: 0.93 con una desviacion estandar de 0.19
+F1-score media: 0.73 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.95
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.89 con una desviacion estandar de 0.26
-F1-score media: 0.69 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.99
-AUC del conjunto de prueba: 0.99
+Precision media: 0.91 con una desviacion estandar de 0.20
+F1-score media: 0.70 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
+AUC del conjunto de prueba: 0.90
 
 Modelo: GaussianNB
-Precision media: 0.83 con una desviacion estandar de 0.27
-F1-score media: 0.59 con una desviacion estandar de 0.46
+Precision media: 0.84 con una desviacion estandar de 0.24
+F1-score media: 0.60 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.98
 
 Modelo: SVC
-Precision media: 0.93 con una desviacion estandar de 0.21
+Precision media: 0.94 con una desviacion estandar de 0.18
 F1-score media: 0.69 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.99
 
 Modelo: RandomForestClassifier
-Precision media: 0.91 con una desviacion estandar de 0.24
+Precision media: 0.93 con una desviacion estandar de 0.19
 F1-score media: 0.67 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
-AUC del conjunto de prueba: 0.98
+AUC del conjunto de prueba: 0.99
 
 Modelo: LogisticRegression
-Precision media: 0.87 con una desviacion estandar de 0.28
-F1-score media: 0.67 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
+Precision media: 0.89 con una desviacion estandar de 0.22
+F1-score media: 0.68 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
 AUC del conjunto de prueba: 0.96
 
 	- Tecnica de Resampling: SMOTE
@@ -852,77 +852,77 @@ Distribucion de etiquetas antes del resampling: Counter({1: 144, 2: 88})
 Distribucion de etiquetas despues del resampling: Counter({1: 144, 2: 144})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.94 con una desviacion estandar de 0.21
-F1-score media: 0.74 con una desviacion estandar de 0.44
+Precision media: 0.92 con una desviacion estandar de 0.21
+F1-score media: 0.76 con una desviacion estandar de 0.41
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.95
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.91 con una desviacion estandar de 0.22
-F1-score media: 0.72 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
-AUC del conjunto de prueba: 0.98
+Precision media: 0.90 con una desviacion estandar de 0.23
+F1-score media: 0.74 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
+AUC del conjunto de prueba: 0.95
 
 Modelo: GaussianNB
-Precision media: 0.82 con una desviacion estandar de 0.31
-F1-score media: 0.61 con una desviacion estandar de 0.46
+Precision media: 0.83 con una desviacion estandar de 0.29
+F1-score media: 0.65 con una desviacion estandar de 0.45
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
-AUC del conjunto de prueba: 0.99
+AUC del conjunto de prueba: 0.98
 
 Modelo: SVC
 Precision media: 0.91 con una desviacion estandar de 0.22
-F1-score media: 0.69 con una desviacion estandar de 0.43
+F1-score media: 0.72 con una desviacion estandar de 0.41
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.98
 
 Modelo: RandomForestClassifier
-Precision media: 0.92 con una desviacion estandar de 0.22
-F1-score media: 0.70 con una desviacion estandar de 0.43
+Precision media: 0.92 con una desviacion estandar de 0.23
+F1-score media: 0.74 con una desviacion estandar de 0.41
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.98
 
 Modelo: LogisticRegression
-Precision media: 0.91 con una desviacion estandar de 0.23
-F1-score media: 0.68 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.95
+Precision media: 0.89 con una desviacion estandar de 0.23
+F1-score media: 0.72 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
+AUC del conjunto de prueba: 0.97
 
 	- Tecnica de Resampling: SMOTETomek
 Distribucion de etiquetas antes del resampling: Counter({1: 144, 2: 88})
 Distribucion de etiquetas despues del resampling: Counter({1: 144, 2: 144})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.91 con una desviacion estandar de 0.19
-F1-score media: 0.79 con una desviacion estandar de 0.39
+Precision media: 0.89 con una desviacion estandar de 0.28
+F1-score media: 0.80 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.95
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.88 con una desviacion estandar de 0.27
+Precision media: 0.87 con una desviacion estandar de 0.29
 F1-score media: 0.78 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
-AUC del conjunto de prueba: 0.98
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
+AUC del conjunto de prueba: 0.95
 
 Modelo: GaussianNB
-Precision media: 0.81 con una desviacion estandar de 0.30
-F1-score media: 0.68 con una desviacion estandar de 0.43
+Precision media: 0.80 con una desviacion estandar de 0.32
+F1-score media: 0.69 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
-AUC del conjunto de prueba: 0.99
+AUC del conjunto de prueba: 0.95
 
 Modelo: SVC
-Precision media: 0.90 con una desviacion estandar de 0.21
+Precision media: 0.89 con una desviacion estandar de 0.24
 F1-score media: 0.75 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.98
 
 Modelo: RandomForestClassifier
-Precision media: 0.92 con una desviacion estandar de 0.20
-F1-score media: 0.77 con una desviacion estandar de 0.39
+Precision media: 0.90 con una desviacion estandar de 0.24
+F1-score media: 0.76 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.98
 
 Modelo: LogisticRegression
-Precision media: 0.89 con una desviacion estandar de 0.22
+Precision media: 0.85 con una desviacion estandar de 0.31
 F1-score media: 0.75 con una desviacion estandar de 0.41
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
 AUC del conjunto de prueba: 0.96
@@ -932,39 +932,39 @@ Distribucion de etiquetas antes del resampling: Counter({1: 144, 2: 88})
 Distribucion de etiquetas despues del resampling: Counter({1: 139, 2: 137})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.91 con una desviacion estandar de 0.26
-F1-score media: 0.77 con una desviacion estandar de 0.42
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
+Precision media: 0.89 con una desviacion estandar de 0.29
+F1-score media: 0.76 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.95
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.94 con una desviacion estandar de 0.15
-F1-score media: 0.76 con una desviacion estandar de 0.42
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
-AUC del conjunto de prueba: 0.95
+Precision media: 0.93 con una desviacion estandar de 0.21
+F1-score media: 0.76 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
+AUC del conjunto de prueba: 0.86
 
 Modelo: GaussianNB
-Precision media: 0.81 con una desviacion estandar de 0.33
-F1-score media: 0.65 con una desviacion estandar de 0.45
+Precision media: 0.79 con una desviacion estandar de 0.34
+F1-score media: 0.66 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.95
 
 Modelo: SVC
-Precision media: 0.93 con una desviacion estandar de 0.21
+Precision media: 0.94 con una desviacion estandar de 0.21
 F1-score media: 0.76 con una desviacion estandar de 0.41
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.98
 
 Modelo: RandomForestClassifier
-Precision media: 0.96 con una desviacion estandar de 0.17
-F1-score media: 0.76 con una desviacion estandar de 0.42
+Precision media: 0.94 con una desviacion estandar de 0.21
+F1-score media: 0.76 con una desviacion estandar de 0.41
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
-AUC del conjunto de prueba: 0.98
+AUC del conjunto de prueba: 0.97
 
 Modelo: LogisticRegression
-Precision media: 0.90 con una desviacion estandar de 0.26
-F1-score media: 0.76 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+Precision media: 0.91 con una desviacion estandar de 0.29
+F1-score media: 0.77 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
 AUC del conjunto de prueba: 0.95
 
 ------------ CLASIFICACION GESTO SAL -----------
@@ -980,10 +980,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.66
 AUC del conjunto de prueba: 0.72
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.43 con una desviacion estandar de 0.40
-F1-score media: 0.45 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.72
-AUC del conjunto de prueba: 0.57
+Precision media: 0.56 con una desviacion estandar de 0.40
+F1-score media: 0.30 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.75
+AUC del conjunto de prueba: 0.62
 
 Modelo: GaussianNB
 Precision media: 0.45 con una desviacion estandar de 0.38
@@ -998,15 +998,15 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.51
 AUC del conjunto de prueba: 0.57
 
 Modelo: RandomForestClassifier
-Precision media: 0.47 con una desviacion estandar de 0.39
-F1-score media: 0.37 con una desviacion estandar de 0.37
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.49
-AUC del conjunto de prueba: 0.59
+Precision media: 0.48 con una desviacion estandar de 0.35
+F1-score media: 0.39 con una desviacion estandar de 0.38
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.48
+AUC del conjunto de prueba: 0.48
 
 Modelo: LogisticRegression
 Precision media: 0.58 con una desviacion estandar de 0.37
 F1-score media: 0.43 con una desviacion estandar de 0.36
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.67
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.68
 AUC del conjunto de prueba: 0.67
 
 	- Tecnica de Resampling: EditedNearestNeighbours
@@ -1038,10 +1038,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.71
 AUC del conjunto de prueba: 0.81
 
 Modelo: RandomForestClassifier
-Precision media: 0.92 con una desviacion estandar de 0.20
+Precision media: 0.90 con una desviacion estandar de 0.21
 F1-score media: 0.89 con una desviacion estandar de 0.27
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.75
-AUC del conjunto de prueba: 0.77
+AUC del conjunto de prueba: 0.79
 
 Modelo: LogisticRegression
 Precision media: 0.86 con una desviacion estandar de 0.29
@@ -1054,40 +1054,40 @@ Distribucion de etiquetas antes del resampling: Counter({1: 144, 2: 21})
 Distribucion de etiquetas despues del resampling: Counter({1: 144, 2: 143})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.94 con una desviacion estandar de 0.19
-F1-score media: 0.31 con una desviacion estandar de 0.45
+Precision media: 0.91 con una desviacion estandar de 0.26
+F1-score media: 0.29 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.73
-AUC del conjunto de prueba: 0.77
+AUC del conjunto de prueba: 0.76
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.89 con una desviacion estandar de 0.25
-F1-score media: 0.29 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.64
-AUC del conjunto de prueba: 0.50
+Precision media: 0.89 con una desviacion estandar de 0.27
+F1-score media: 0.26 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.73
+AUC del conjunto de prueba: 0.58
 
 Modelo: GaussianNB
-Precision media: 0.90 con una desviacion estandar de 0.25
-F1-score media: 0.28 con una desviacion estandar de 0.44
+Precision media: 0.90 con una desviacion estandar de 0.26
+F1-score media: 0.26 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
-AUC del conjunto de prueba: 0.53
+AUC del conjunto de prueba: 0.54
 
 Modelo: SVC
-Precision media: 0.91 con una desviacion estandar de 0.24
-F1-score media: 0.27 con una desviacion estandar de 0.43
+Precision media: 0.93 con una desviacion estandar de 0.21
+F1-score media: 0.27 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.76
-AUC del conjunto de prueba: 0.83
+AUC del conjunto de prueba: 0.82
 
 Modelo: RandomForestClassifier
-Precision media: 0.94 con una desviacion estandar de 0.22
-F1-score media: 0.32 con una desviacion estandar de 0.46
+Precision media: 0.94 con una desviacion estandar de 0.20
+F1-score media: 0.30 con una desviacion estandar de 0.45
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.65
-AUC del conjunto de prueba: 0.77
+AUC del conjunto de prueba: 0.75
 
 Modelo: LogisticRegression
-Precision media: 0.95 con una desviacion estandar de 0.16
-F1-score media: 0.32 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.70
-AUC del conjunto de prueba: 0.63
+Precision media: 0.95 con una desviacion estandar de 0.17
+F1-score media: 0.30 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.67
+AUC del conjunto de prueba: 0.62
 
 	- Tecnica de Resampling: SMOTE
 Distribucion de etiquetas antes del resampling: Counter({1: 144, 2: 21})
@@ -1095,119 +1095,119 @@ Distribucion de etiquetas despues del resampling: Counter({1: 144, 2: 144})
 
 Modelo: KNeighborsClassifier
 Precision media: 0.90 con una desviacion estandar de 0.25
-F1-score media: 0.48 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.74
+F1-score media: 0.46 con una desviacion estandar de 0.47
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.73
 AUC del conjunto de prueba: 0.77
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.78 con una desviacion estandar de 0.36
-F1-score media: 0.44 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.73
-AUC del conjunto de prueba: 0.69
-
-Modelo: GaussianNB
-Precision media: 0.75 con una desviacion estandar de 0.37
-F1-score media: 0.46 con una desviacion estandar de 0.46
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.83
-AUC del conjunto de prueba: 0.65
-
-Modelo: SVC
 Precision media: 0.89 con una desviacion estandar de 0.26
-F1-score media: 0.42 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.77
-AUC del conjunto de prueba: 0.83
-
-Modelo: RandomForestClassifier
-Precision media: 0.96 con una desviacion estandar de 0.16
-F1-score media: 0.49 con una desviacion estandar de 0.48
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.65
-AUC del conjunto de prueba: 0.79
-
-Modelo: LogisticRegression
-Precision media: 0.95 con una desviacion estandar de 0.18
-F1-score media: 0.49 con una desviacion estandar de 0.48
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.66
-AUC del conjunto de prueba: 0.63
-
-	- Tecnica de Resampling: SMOTETomek
-Distribucion de etiquetas antes del resampling: Counter({1: 144, 2: 21})
-Distribucion de etiquetas despues del resampling: Counter({1: 144, 2: 144})
-
-Modelo: KNeighborsClassifier
-Precision media: 0.90 con una desviacion estandar de 0.25
-F1-score media: 0.48 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.73
-AUC del conjunto de prueba: 0.76
-
-Modelo: DecisionTreeClassifier
-Precision media: 0.88 con una desviacion estandar de 0.23
-F1-score media: 0.43 con una desviacion estandar de 0.46
+F1-score media: 0.44 con una desviacion estandar de 0.47
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.74
 AUC del conjunto de prueba: 0.70
 
 Modelo: GaussianNB
-Precision media: 0.78 con una desviacion estandar de 0.35
-F1-score media: 0.45 con una desviacion estandar de 0.46
+Precision media: 0.79 con una desviacion estandar de 0.34
+F1-score media: 0.41 con una desviacion estandar de 0.46
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.81
-AUC del conjunto de prueba: 0.65
+AUC del conjunto de prueba: 0.67
+
+Modelo: SVC
+Precision media: 0.86 con una desviacion estandar de 0.28
+F1-score media: 0.41 con una desviacion estandar de 0.47
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.77
+AUC del conjunto de prueba: 0.83
+
+Modelo: RandomForestClassifier
+Precision media: 0.92 con una desviacion estandar de 0.24
+F1-score media: 0.48 con una desviacion estandar de 0.48
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.67
+AUC del conjunto de prueba: 0.77
+
+Modelo: LogisticRegression
+Precision media: 0.93 con una desviacion estandar de 0.20
+F1-score media: 0.47 con una desviacion estandar de 0.48
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.69
+AUC del conjunto de prueba: 0.64
+
+	- Tecnica de Resampling: SMOTETomek
+Distribucion de etiquetas antes del resampling: Counter({1: 144, 2: 21})
+Distribucion de etiquetas despues del resampling: Counter({1: 143, 2: 143})
+
+Modelo: KNeighborsClassifier
+Precision media: 0.84 con una desviacion estandar de 0.33
+F1-score media: 0.45 con una desviacion estandar de 0.48
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.73
+AUC del conjunto de prueba: 0.74
+
+Modelo: DecisionTreeClassifier
+Precision media: 0.89 con una desviacion estandar de 0.23
+F1-score media: 0.43 con una desviacion estandar de 0.46
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.83
+AUC del conjunto de prueba: 0.70
+
+Modelo: GaussianNB
+Precision media: 0.79 con una desviacion estandar de 0.35
+F1-score media: 0.42 con una desviacion estandar de 0.46
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
+AUC del conjunto de prueba: 0.66
 
 Modelo: SVC
 Precision media: 0.89 con una desviacion estandar de 0.24
-F1-score media: 0.42 con una desviacion estandar de 0.47
+F1-score media: 0.41 con una desviacion estandar de 0.47
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.77
 AUC del conjunto de prueba: 0.83
 
 Modelo: RandomForestClassifier
-Precision media: 0.94 con una desviacion estandar de 0.18
-F1-score media: 0.49 con una desviacion estandar de 0.48
+Precision media: 0.91 con una desviacion estandar de 0.25
+F1-score media: 0.47 con una desviacion estandar de 0.47
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.69
-AUC del conjunto de prueba: 0.75
+AUC del conjunto de prueba: 0.76
 
 Modelo: LogisticRegression
-Precision media: 0.94 con una desviacion estandar de 0.18
-F1-score media: 0.49 con una desviacion estandar de 0.48
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.72
-AUC del conjunto de prueba: 0.64
+Precision media: 0.95 con una desviacion estandar de 0.18
+F1-score media: 0.48 con una desviacion estandar de 0.48
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.68
+AUC del conjunto de prueba: 0.68
 
 	- Tecnica de Resampling: SMOTEENN
 Distribucion de etiquetas antes del resampling: Counter({1: 144, 2: 21})
-Distribucion de etiquetas despues del resampling: Counter({2: 139, 1: 136})
+Distribucion de etiquetas despues del resampling: Counter({2: 140, 1: 135})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.95 con una desviacion estandar de 0.19
-F1-score media: 0.62 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.73
-AUC del conjunto de prueba: 0.77
+Precision media: 0.94 con una desviacion estandar de 0.19
+F1-score media: 0.57 con una desviacion estandar de 0.48
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.75
+AUC del conjunto de prueba: 0.78
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.84 con una desviacion estandar de 0.31
-F1-score media: 0.58 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.72
-AUC del conjunto de prueba: 0.67
+Precision media: 0.83 con una desviacion estandar de 0.31
+F1-score media: 0.51 con una desviacion estandar de 0.46
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.75
+AUC del conjunto de prueba: 0.74
 
 Modelo: GaussianNB
-Precision media: 0.83 con una desviacion estandar de 0.32
-F1-score media: 0.55 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.70
-AUC del conjunto de prueba: 0.67
+Precision media: 0.76 con una desviacion estandar de 0.36
+F1-score media: 0.50 con una desviacion estandar de 0.47
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.68
+AUC del conjunto de prueba: 0.61
 
 Modelo: SVC
-Precision media: 0.87 con una desviacion estandar de 0.27
-F1-score media: 0.52 con una desviacion estandar de 0.48
+Precision media: 0.87 con una desviacion estandar de 0.28
+F1-score media: 0.48 con una desviacion estandar de 0.48
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.77
 AUC del conjunto de prueba: 0.83
 
 Modelo: RandomForestClassifier
-Precision media: 0.92 con una desviacion estandar de 0.26
-F1-score media: 0.61 con una desviacion estandar de 0.48
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.65
+Precision media: 0.95 con una desviacion estandar de 0.19
+F1-score media: 0.54 con una desviacion estandar de 0.49
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.71
 AUC del conjunto de prueba: 0.78
 
 Modelo: LogisticRegression
-Precision media: 0.94 con una desviacion estandar de 0.20
-F1-score media: 0.62 con una desviacion estandar de 0.46
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.71
-AUC del conjunto de prueba: 0.82
+Precision media: 0.93 con una desviacion estandar de 0.20
+F1-score media: 0.56 con una desviacion estandar de 0.47
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.72
+AUC del conjunto de prueba: 0.84
 
 ------------ CLASIFICACION GESTO SAR -----------
 
@@ -1222,10 +1222,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.99
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.49 con una desviacion estandar de 0.37
-F1-score media: 0.35 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.14
-AUC del conjunto de prueba: 0.54
+Precision media: 0.63 con una desviacion estandar de 0.33
+F1-score media: 0.43 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
+AUC del conjunto de prueba: 0.94
 
 Modelo: GaussianNB
 Precision media: 0.60 con una desviacion estandar de 0.37
@@ -1240,16 +1240,16 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
 AUC del conjunto de prueba: 0.98
 
 Modelo: RandomForestClassifier
-Precision media: 0.76 con una desviacion estandar de 0.31
-F1-score media: 0.47 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.98
+Precision media: 0.75 con una desviacion estandar de 0.32
+F1-score media: 0.47 con una desviacion estandar de 0.48
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 1.00
 
 Modelo: LogisticRegression
 Precision media: 0.86 con una desviacion estandar de 0.18
 F1-score media: 0.66 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
-AUC del conjunto de prueba: 0.31
+AUC del conjunto de prueba: 0.27
 
 	- Tecnica de Resampling: EditedNearestNeighbours
 Distribucion de etiquetas antes del resampling: Counter({1: 153, 2: 31})
@@ -1262,7 +1262,7 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.84
 AUC del conjunto de prueba: 0.95
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.85 con una desviacion estandar de 0.31
+Precision media: 0.93 con una desviacion estandar de 0.22
 F1-score media: 0.78 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.98
@@ -1282,54 +1282,54 @@ AUC del conjunto de prueba: 0.97
 Modelo: RandomForestClassifier
 Precision media: 0.85 con una desviacion estandar de 0.30
 F1-score media: 0.79 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 1.00
-AUC del conjunto de prueba: 1.00
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
+AUC del conjunto de prueba: 0.99
 
 Modelo: LogisticRegression
 Precision media: 0.87 con una desviacion estandar de 0.28
 F1-score media: 0.78 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.76
-AUC del conjunto de prueba: 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.75
+AUC del conjunto de prueba: 0.26
 
 	- Tecnica de Resampling: ADASYN
 Distribucion de etiquetas antes del resampling: Counter({1: 153, 2: 31})
 Distribucion de etiquetas despues del resampling: Counter({1: 153, 2: 151})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.86 con una desviacion estandar de 0.20
-F1-score media: 0.59 con una desviacion estandar de 0.44
+Precision media: 0.87 con una desviacion estandar de 0.20
+F1-score media: 0.60 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.81
-AUC del conjunto de prueba: 0.89
+AUC del conjunto de prueba: 0.91
 
 Modelo: DecisionTreeClassifier
 Precision media: 0.92 con una desviacion estandar de 0.16
-F1-score media: 0.68 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
-AUC del conjunto de prueba: 0.67
+F1-score media: 0.66 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
+AUC del conjunto de prueba: 0.83
 
 Modelo: GaussianNB
-Precision media: 0.89 con una desviacion estandar de 0.22
-F1-score media: 0.64 con una desviacion estandar de 0.43
+Precision media: 0.90 con una desviacion estandar de 0.20
+F1-score media: 0.65 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.84
 AUC del conjunto de prueba: 0.94
 
 Modelo: SVC
-Precision media: 0.79 con una desviacion estandar de 0.33
+Precision media: 0.79 con una desviacion estandar de 0.32
 F1-score media: 0.49 con una desviacion estandar de 0.48
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
 AUC del conjunto de prueba: 0.92
 
 Modelo: RandomForestClassifier
-Precision media: 0.92 con una desviacion estandar de 0.17
-F1-score media: 0.66 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
+Precision media: 0.94 con una desviacion estandar de 0.15
+F1-score media: 0.66 con una desviacion estandar de 0.47
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 1.00
 
 Modelo: LogisticRegression
-Precision media: 0.92 con una desviacion estandar de 0.18
-F1-score media: 0.61 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.78
-AUC del conjunto de prueba: 0.43
+Precision media: 0.91 con una desviacion estandar de 0.18
+F1-score media: 0.60 con una desviacion estandar de 0.47
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.79
+AUC del conjunto de prueba: 0.57
 
 	- Tecnica de Resampling: SMOTE
 Distribucion de etiquetas antes del resampling: Counter({1: 153, 2: 31})
@@ -1337,118 +1337,118 @@ Distribucion de etiquetas despues del resampling: Counter({1: 153, 2: 153})
 
 Modelo: KNeighborsClassifier
 Precision media: 0.86 con una desviacion estandar de 0.22
-F1-score media: 0.65 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
-AUC del conjunto de prueba: 0.97
+F1-score media: 0.67 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
+AUC del conjunto de prueba: 0.92
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.80 con una desviacion estandar de 0.31
-F1-score media: 0.61 con una desviacion estandar de 0.46
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.73
+Precision media: 0.94 con una desviacion estandar de 0.10
+F1-score media: 0.71 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
+AUC del conjunto de prueba: 0.72
 
 Modelo: GaussianNB
-Precision media: 0.84 con una desviacion estandar de 0.23
+Precision media: 0.81 con una desviacion estandar de 0.29
 F1-score media: 0.71 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
-AUC del conjunto de prueba: 0.99
-
-Modelo: SVC
-Precision media: 0.76 con una desviacion estandar de 0.30
-F1-score media: 0.70 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.98
 
+Modelo: SVC
+Precision media: 0.80 con una desviacion estandar de 0.29
+F1-score media: 0.71 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
+AUC del conjunto de prueba: 0.97
+
 Modelo: RandomForestClassifier
-Precision media: 0.91 con una desviacion estandar de 0.16
-F1-score media: 0.68 con una desviacion estandar de 0.45
+Precision media: 0.93 con una desviacion estandar de 0.18
+F1-score media: 0.70 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 1.00
 AUC del conjunto de prueba: 1.00
 
 Modelo: LogisticRegression
-Precision media: 0.92 con una desviacion estandar de 0.15
-F1-score media: 0.71 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.81
-AUC del conjunto de prueba: 0.43
+Precision media: 0.88 con una desviacion estandar de 0.26
+F1-score media: 0.67 con una desviacion estandar de 0.45
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
+AUC del conjunto de prueba: 0.62
 
 	- Tecnica de Resampling: SMOTETomek
 Distribucion de etiquetas antes del resampling: Counter({1: 153, 2: 31})
 Distribucion de etiquetas despues del resampling: Counter({1: 153, 2: 153})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.84 con una desviacion estandar de 0.24
-F1-score media: 0.64 con una desviacion estandar de 0.42
+Precision media: 0.86 con una desviacion estandar de 0.21
+F1-score media: 0.62 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
 AUC del conjunto de prueba: 0.96
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.94 con una desviacion estandar de 0.10
-F1-score media: 0.72 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
-AUC del conjunto de prueba: 0.81
+Precision media: 0.89 con una desviacion estandar de 0.19
+F1-score media: 0.63 con una desviacion estandar de 0.45
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
+AUC del conjunto de prueba: 0.73
 
 Modelo: GaussianNB
-Precision media: 0.84 con una desviacion estandar de 0.23
-F1-score media: 0.70 con una desviacion estandar de 0.40
+Precision media: 0.78 con una desviacion estandar de 0.29
+F1-score media: 0.67 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
-AUC del conjunto de prueba: 0.98
+AUC del conjunto de prueba: 0.99
 
 Modelo: SVC
-Precision media: 0.83 con una desviacion estandar de 0.22
-F1-score media: 0.68 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.97
+Precision media: 0.76 con una desviacion estandar de 0.29
+F1-score media: 0.67 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
+AUC del conjunto de prueba: 0.98
 
 Modelo: RandomForestClassifier
-Precision media: 0.93 con una desviacion estandar de 0.17
-F1-score media: 0.71 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 1.00
+Precision media: 0.93 con una desviacion estandar de 0.16
+F1-score media: 0.65 con una desviacion estandar de 0.46
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.98
 AUC del conjunto de prueba: 1.00
 
 Modelo: LogisticRegression
-Precision media: 0.90 con una desviacion estandar de 0.22
-F1-score media: 0.67 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.91
+Precision media: 0.88 con una desviacion estandar de 0.22
+F1-score media: 0.62 con una desviacion estandar de 0.45
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.84
+AUC del conjunto de prueba: 0.70
 
 	- Tecnica de Resampling: SMOTEENN
 Distribucion de etiquetas antes del resampling: Counter({1: 153, 2: 31})
 Distribucion de etiquetas despues del resampling: Counter({2: 150, 1: 135})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.88 con una desviacion estandar de 0.21
-F1-score media: 0.64 con una desviacion estandar de 0.44
+Precision media: 0.87 con una desviacion estandar de 0.23
+F1-score media: 0.65 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
-AUC del conjunto de prueba: 0.94
+AUC del conjunto de prueba: 0.95
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.92 con una desviacion estandar de 0.21
-F1-score media: 0.65 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
-AUC del conjunto de prueba: 0.64
+Precision media: 0.94 con una desviacion estandar de 0.18
+F1-score media: 0.70 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
+AUC del conjunto de prueba: 0.56
 
 Modelo: GaussianNB
-Precision media: 0.83 con una desviacion estandar de 0.30
-F1-score media: 0.67 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
-AUC del conjunto de prueba: 0.96
+Precision media: 0.89 con una desviacion estandar de 0.18
+F1-score media: 0.69 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
+AUC del conjunto de prueba: 0.95
 
 Modelo: SVC
-Precision media: 0.74 con una desviacion estandar de 0.36
-F1-score media: 0.56 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
-AUC del conjunto de prueba: 0.97
+Precision media: 0.75 con una desviacion estandar de 0.38
+F1-score media: 0.52 con una desviacion estandar de 0.48
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
+AUC del conjunto de prueba: 0.95
 
 Modelo: RandomForestClassifier
-Precision media: 0.96 con una desviacion estandar de 0.13
-F1-score media: 0.68 con una desviacion estandar de 0.46
+Precision media: 0.97 con una desviacion estandar de 0.13
+F1-score media: 0.71 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 1.00
 AUC del conjunto de prueba: 1.00
 
 Modelo: LogisticRegression
-Precision media: 0.95 con una desviacion estandar de 0.13
-F1-score media: 0.68 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.77
+Precision media: 0.94 con una desviacion estandar de 0.15
+F1-score media: 0.71 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.78
 AUC del conjunto de prueba: 0.30
 
 ------------ CLASIFICACION GESTO SFE -----------
@@ -1464,10 +1464,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.98
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.59 con una desviacion estandar de 0.38
-F1-score media: 0.57 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.81
-AUC del conjunto de prueba: 0.87
+Precision media: 0.61 con una desviacion estandar de 0.34
+F1-score media: 0.53 con una desviacion estandar de 0.39
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
+AUC del conjunto de prueba: 0.86
 
 Modelo: GaussianNB
 Precision media: 0.75 con una desviacion estandar de 0.38
@@ -1482,16 +1482,16 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.75
 AUC del conjunto de prueba: 0.94
 
 Modelo: RandomForestClassifier
-Precision media: 0.71 con una desviacion estandar de 0.39
-F1-score media: 0.60 con una desviacion estandar de 0.45
+Precision media: 0.70 con una desviacion estandar de 0.39
+F1-score media: 0.67 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 0.98
 
 Modelo: LogisticRegression
-Precision media: 0.71 con una desviacion estandar de 0.38
-F1-score media: 0.60 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.77
-AUC del conjunto de prueba: 0.62
+Precision media: 0.68 con una desviacion estandar de 0.37
+F1-score media: 0.59 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
+AUC del conjunto de prueba: 0.83
 
 	- Tecnica de Resampling: EditedNearestNeighbours
 Distribucion de etiquetas antes del resampling: Counter({1: 148, 2: 35})
@@ -1504,7 +1504,7 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
 AUC del conjunto de prueba: 0.99
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.83 con una desviacion estandar de 0.31
+Precision media: 0.84 con una desviacion estandar de 0.31
 F1-score media: 0.77 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
 AUC del conjunto de prueba: 0.93
@@ -1523,12 +1523,12 @@ AUC del conjunto de prueba: 0.98
 
 Modelo: RandomForestClassifier
 Precision media: 0.86 con una desviacion estandar de 0.31
-F1-score media: 0.81 con una desviacion estandar de 0.36
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
+F1-score media: 0.77 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 0.98
 
 Modelo: LogisticRegression
-Precision media: 0.82 con una desviacion estandar de 0.32
+Precision media: 0.81 con una desviacion estandar de 0.32
 F1-score media: 0.75 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 0.98
@@ -1538,78 +1538,78 @@ Distribucion de etiquetas antes del resampling: Counter({1: 148, 2: 35})
 Distribucion de etiquetas despues del resampling: Counter({2: 151, 1: 148})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.85 con una desviacion estandar de 0.20
-F1-score media: 0.63 con una desviacion estandar de 0.42
+Precision media: 0.85 con una desviacion estandar de 0.23
+F1-score media: 0.62 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.95
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.82 con una desviacion estandar de 0.29
-F1-score media: 0.61 con una desviacion estandar de 0.46
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.81
-AUC del conjunto de prueba: 0.45
+Precision media: 0.90 con una desviacion estandar de 0.14
+F1-score media: 0.64 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
+AUC del conjunto de prueba: 0.72
 
 Modelo: GaussianNB
-Precision media: 0.89 con una desviacion estandar de 0.25
-F1-score media: 0.72 con una desviacion estandar de 0.42
+Precision media: 0.92 con una desviacion estandar de 0.21
+F1-score media: 0.69 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 1.00
 AUC del conjunto de prueba: 1.00
 
 Modelo: SVC
-Precision media: 0.79 con una desviacion estandar de 0.30
-F1-score media: 0.55 con una desviacion estandar de 0.46
+Precision media: 0.79 con una desviacion estandar de 0.32
+F1-score media: 0.56 con una desviacion estandar de 0.45
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.99
+AUC del conjunto de prueba: 1.00
 
 Modelo: RandomForestClassifier
-Precision media: 0.87 con una desviacion estandar de 0.28
-F1-score media: 0.65 con una desviacion estandar de 0.44
+Precision media: 0.92 con una desviacion estandar de 0.21
+F1-score media: 0.69 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 1.00
 
 Modelo: LogisticRegression
-Precision media: 0.91 con una desviacion estandar de 0.23
-F1-score media: 0.69 con una desviacion estandar de 0.44
+Precision media: 0.91 con una desviacion estandar de 0.21
+F1-score media: 0.69 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
-AUC del conjunto de prueba: 0.98
+AUC del conjunto de prueba: 0.97
 
 	- Tecnica de Resampling: SMOTE
 Distribucion de etiquetas antes del resampling: Counter({1: 148, 2: 35})
 Distribucion de etiquetas despues del resampling: Counter({1: 148, 2: 148})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.88 con una desviacion estandar de 0.21
-F1-score media: 0.68 con una desviacion estandar de 0.42
+Precision media: 0.86 con una desviacion estandar de 0.21
+F1-score media: 0.67 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
-AUC del conjunto de prueba: 0.96
+AUC del conjunto de prueba: 0.98
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.87 con una desviacion estandar de 0.19
-F1-score media: 0.67 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.81
-AUC del conjunto de prueba: 0.45
+Precision media: 0.76 con una desviacion estandar de 0.30
+F1-score media: 0.61 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+AUC del conjunto de prueba: 0.92
 
 Modelo: GaussianNB
 Precision media: 0.86 con una desviacion estandar de 0.24
-F1-score media: 0.70 con una desviacion estandar de 0.41
+F1-score media: 0.69 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 1.00
 AUC del conjunto de prueba: 1.00
 
 Modelo: SVC
-Precision media: 0.89 con una desviacion estandar de 0.21
-F1-score media: 0.74 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
-AUC del conjunto de prueba: 0.98
+Precision media: 0.85 con una desviacion estandar de 0.27
+F1-score media: 0.65 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
+AUC del conjunto de prueba: 1.00
 
 Modelo: RandomForestClassifier
-Precision media: 0.91 con una desviacion estandar de 0.22
-F1-score media: 0.71 con una desviacion estandar de 0.41
+Precision media: 0.92 con una desviacion estandar de 0.22
+F1-score media: 0.70 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
 AUC del conjunto de prueba: 0.98
 
 Modelo: LogisticRegression
-Precision media: 0.88 con una desviacion estandar de 0.25
-F1-score media: 0.67 con una desviacion estandar de 0.43
+Precision media: 0.87 con una desviacion estandar de 0.23
+F1-score media: 0.67 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 0.97
 
@@ -1618,78 +1618,78 @@ Distribucion de etiquetas antes del resampling: Counter({1: 148, 2: 35})
 Distribucion de etiquetas despues del resampling: Counter({1: 148, 2: 148})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.85 con una desviacion estandar de 0.22
-F1-score media: 0.65 con una desviacion estandar de 0.41
+Precision media: 0.86 con una desviacion estandar de 0.20
+F1-score media: 0.66 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.96
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.78 con una desviacion estandar de 0.28
-F1-score media: 0.64 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
-AUC del conjunto de prueba: 0.74
+Precision media: 0.86 con una desviacion estandar de 0.27
+F1-score media: 0.68 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
+AUC del conjunto de prueba: 0.73
 
 Modelo: GaussianNB
-Precision media: 0.86 con una desviacion estandar de 0.27
-F1-score media: 0.70 con una desviacion estandar de 0.43
+Precision media: 0.83 con una desviacion estandar de 0.28
+F1-score media: 0.68 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 1.00
 AUC del conjunto de prueba: 1.00
 
 Modelo: SVC
-Precision media: 0.82 con una desviacion estandar de 0.31
-F1-score media: 0.69 con una desviacion estandar de 0.42
+Precision media: 0.82 con una desviacion estandar de 0.27
+F1-score media: 0.64 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.99
+AUC del conjunto de prueba: 1.00
 
 Modelo: RandomForestClassifier
-Precision media: 0.91 con una desviacion estandar de 0.23
+Precision media: 0.92 con una desviacion estandar de 0.22
 F1-score media: 0.69 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 1.00
 
 Modelo: LogisticRegression
-Precision media: 0.88 con una desviacion estandar de 0.24
-F1-score media: 0.67 con una desviacion estandar de 0.43
+Precision media: 0.89 con una desviacion estandar de 0.24
+F1-score media: 0.68 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
-AUC del conjunto de prueba: 0.97
+AUC del conjunto de prueba: 0.98
 
 	- Tecnica de Resampling: SMOTEENN
 Distribucion de etiquetas antes del resampling: Counter({1: 148, 2: 35})
-Distribucion de etiquetas despues del resampling: Counter({2: 142, 1: 131})
+Distribucion de etiquetas despues del resampling: Counter({2: 144, 1: 134})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.88 con una desviacion estandar de 0.23
-F1-score media: 0.64 con una desviacion estandar de 0.45
+Precision media: 0.84 con una desviacion estandar de 0.27
+F1-score media: 0.62 con una desviacion estandar de 0.45
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.96
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.90 con una desviacion estandar de 0.21
-F1-score media: 0.65 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
-AUC del conjunto de prueba: 0.50
+Precision media: 0.83 con una desviacion estandar de 0.29
+F1-score media: 0.62 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+AUC del conjunto de prueba: 0.71
 
 Modelo: GaussianNB
-Precision media: 0.85 con una desviacion estandar de 0.25
-F1-score media: 0.64 con una desviacion estandar de 0.45
+Precision media: 0.83 con una desviacion estandar de 0.27
+F1-score media: 0.68 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.98
 AUC del conjunto de prueba: 0.99
 
 Modelo: SVC
-Precision media: 0.88 con una desviacion estandar de 0.23
-F1-score media: 0.63 con una desviacion estandar de 0.45
+Precision media: 0.85 con una desviacion estandar de 0.27
+F1-score media: 0.64 con una desviacion estandar de 0.45
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.99
+AUC del conjunto de prueba: 1.00
 
 Modelo: RandomForestClassifier
-Precision media: 0.91 con una desviacion estandar de 0.23
-F1-score media: 0.66 con una desviacion estandar de 0.46
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
+Precision media: 0.90 con una desviacion estandar de 0.23
+F1-score media: 0.69 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
 AUC del conjunto de prueba: 0.98
 
 Modelo: LogisticRegression
-Precision media: 0.87 con una desviacion estandar de 0.29
-F1-score media: 0.64 con una desviacion estandar de 0.45
+Precision media: 0.88 con una desviacion estandar de 0.25
+F1-score media: 0.67 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 0.97
 
@@ -1706,10 +1706,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.72
 AUC del conjunto de prueba: 0.66
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.78 con una desviacion estandar de 0.36
-F1-score media: 0.50 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.67
-AUC del conjunto de prueba: 0.45
+Precision media: 0.72 con una desviacion estandar de 0.40
+F1-score media: 0.51 con una desviacion estandar de 0.46
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.66
+AUC del conjunto de prueba: 0.44
 
 Modelo: GaussianNB
 Precision media: 0.72 con una desviacion estandar de 0.38
@@ -1725,15 +1725,15 @@ AUC del conjunto de prueba: 0.66
 
 Modelo: RandomForestClassifier
 Precision media: 0.77 con una desviacion estandar de 0.36
-F1-score media: 0.51 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.72
-AUC del conjunto de prueba: 0.50
+F1-score media: 0.49 con una desviacion estandar de 0.46
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.79
+AUC del conjunto de prueba: 0.47
 
 Modelo: LogisticRegression
 Precision media: 0.80 con una desviacion estandar de 0.32
 F1-score media: 0.49 con una desviacion estandar de 0.48
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
-AUC del conjunto de prueba: 0.51
+AUC del conjunto de prueba: 0.55
 
 	- Tecnica de Resampling: EditedNearestNeighbours
 Distribucion de etiquetas antes del resampling: Counter({1: 154, 2: 26})
@@ -1746,10 +1746,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
 AUC del conjunto de prueba: 0.66
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.78 con una desviacion estandar de 0.27
+Precision media: 0.74 con una desviacion estandar de 0.32
 F1-score media: 0.73 con una desviacion estandar de 0.38
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.83
-AUC del conjunto de prueba: 0.46
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.84
+AUC del conjunto de prueba: 0.47
 
 Modelo: GaussianNB
 Precision media: 0.79 con una desviacion estandar de 0.32
@@ -1764,10 +1764,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
 AUC del conjunto de prueba: 0.77
 
 Modelo: RandomForestClassifier
-Precision media: 0.86 con una desviacion estandar de 0.26
+Precision media: 0.85 con una desviacion estandar de 0.26
 F1-score media: 0.82 con una desviacion estandar de 0.36
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
-AUC del conjunto de prueba: 0.87
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
+AUC del conjunto de prueba: 0.80
 
 Modelo: LogisticRegression
 Precision media: 0.81 con una desviacion estandar de 0.30
@@ -1780,37 +1780,37 @@ Distribucion de etiquetas antes del resampling: Counter({1: 154, 2: 26})
 Distribucion de etiquetas despues del resampling: Counter({2: 155, 1: 154})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.80 con una desviacion estandar de 0.24
+Precision media: 0.80 con una desviacion estandar de 0.25
 F1-score media: 0.52 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
-AUC del conjunto de prueba: 0.61
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.82
+AUC del conjunto de prueba: 0.59
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.86 con una desviacion estandar de 0.25
-F1-score media: 0.58 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
-AUC del conjunto de prueba: 0.54
+Precision media: 0.83 con una desviacion estandar de 0.27
+F1-score media: 0.56 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
+AUC del conjunto de prueba: 0.55
 
 Modelo: GaussianNB
-Precision media: 0.90 con una desviacion estandar de 0.22
-F1-score media: 0.66 con una desviacion estandar de 0.44
+Precision media: 0.93 con una desviacion estandar de 0.14
+F1-score media: 0.67 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
-AUC del conjunto de prueba: 0.85
+AUC del conjunto de prueba: 0.82
 
 Modelo: SVC
-Precision media: 0.82 con una desviacion estandar de 0.21
-F1-score media: 0.60 con una desviacion estandar de 0.42
+Precision media: 0.84 con una desviacion estandar de 0.19
+F1-score media: 0.61 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
 AUC del conjunto de prueba: 0.62
 
 Modelo: RandomForestClassifier
-Precision media: 0.93 con una desviacion estandar de 0.14
-F1-score media: 0.67 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
+Precision media: 0.96 con una desviacion estandar de 0.08
+F1-score media: 0.68 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
 AUC del conjunto de prueba: 0.79
 
 Modelo: LogisticRegression
-Precision media: 0.92 con una desviacion estandar de 0.15
+Precision media: 0.93 con una desviacion estandar de 0.14
 F1-score media: 0.64 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
 AUC del conjunto de prueba: 0.27
@@ -1820,118 +1820,118 @@ Distribucion de etiquetas antes del resampling: Counter({1: 154, 2: 26})
 Distribucion de etiquetas despues del resampling: Counter({1: 154, 2: 154})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.74 con una desviacion estandar de 0.32
-F1-score media: 0.53 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
-AUC del conjunto de prueba: 0.65
+Precision media: 0.78 con una desviacion estandar de 0.29
+F1-score media: 0.58 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
+AUC del conjunto de prueba: 0.62
 
 Modelo: DecisionTreeClassifier
 Precision media: 0.89 con una desviacion estandar de 0.20
-F1-score media: 0.62 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.68
+F1-score media: 0.70 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
+AUC del conjunto de prueba: 0.81
 
 Modelo: GaussianNB
-Precision media: 0.86 con una desviacion estandar de 0.28
-F1-score media: 0.66 con una desviacion estandar de 0.44
+Precision media: 0.85 con una desviacion estandar de 0.26
+F1-score media: 0.69 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
 AUC del conjunto de prueba: 0.80
 
 Modelo: SVC
-Precision media: 0.76 con una desviacion estandar de 0.31
-F1-score media: 0.61 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.71
+Precision media: 0.79 con una desviacion estandar de 0.31
+F1-score media: 0.63 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
+AUC del conjunto de prueba: 0.70
 
 Modelo: RandomForestClassifier
-Precision media: 0.90 con una desviacion estandar de 0.19
-F1-score media: 0.67 con una desviacion estandar de 0.44
+Precision media: 0.93 con una desviacion estandar de 0.18
+F1-score media: 0.71 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
-AUC del conjunto de prueba: 0.81
+AUC del conjunto de prueba: 0.67
 
 Modelo: LogisticRegression
-Precision media: 0.91 con una desviacion estandar de 0.17
-F1-score media: 0.65 con una desviacion estandar de 0.44
+Precision media: 0.91 con una desviacion estandar de 0.15
+F1-score media: 0.68 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
 AUC del conjunto de prueba: 0.27
 
 	- Tecnica de Resampling: SMOTETomek
 Distribucion de etiquetas antes del resampling: Counter({1: 154, 2: 26})
-Distribucion de etiquetas despues del resampling: Counter({1: 152, 2: 152})
+Distribucion de etiquetas despues del resampling: Counter({1: 153, 2: 153})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.76 con una desviacion estandar de 0.35
-F1-score media: 0.56 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
-AUC del conjunto de prueba: 0.63
-
-Modelo: DecisionTreeClassifier
-Precision media: 0.94 con una desviacion estandar de 0.14
-F1-score media: 0.67 con una desviacion estandar de 0.45
+Precision media: 0.75 con una desviacion estandar de 0.31
+F1-score media: 0.52 con una desviacion estandar de 0.43
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
 AUC del conjunto de prueba: 0.61
+
+Modelo: DecisionTreeClassifier
+Precision media: 0.86 con una desviacion estandar de 0.28
+F1-score media: 0.60 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
+AUC del conjunto de prueba: 0.49
 
 Modelo: GaussianNB
 Precision media: 0.87 con una desviacion estandar de 0.27
 F1-score media: 0.66 con una desviacion estandar de 0.44
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
-AUC del conjunto de prueba: 0.79
+AUC del conjunto de prueba: 0.80
 
 Modelo: SVC
-Precision media: 0.77 con una desviacion estandar de 0.33
-F1-score media: 0.62 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
-AUC del conjunto de prueba: 0.73
+Precision media: 0.77 con una desviacion estandar de 0.31
+F1-score media: 0.60 con una desviacion estandar de 0.45
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
+AUC del conjunto de prueba: 0.64
 
 Modelo: RandomForestClassifier
 Precision media: 0.90 con una desviacion estandar de 0.22
-F1-score media: 0.67 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
-AUC del conjunto de prueba: 0.68
+F1-score media: 0.67 con una desviacion estandar de 0.45
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
+AUC del conjunto de prueba: 0.77
 
 Modelo: LogisticRegression
-Precision media: 0.92 con una desviacion estandar de 0.16
-F1-score media: 0.65 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
-AUC del conjunto de prueba: 0.25
+Precision media: 0.90 con una desviacion estandar de 0.20
+F1-score media: 0.62 con una desviacion estandar de 0.45
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.81
+AUC del conjunto de prueba: 0.27
 
 	- Tecnica de Resampling: SMOTEENN
 Distribucion de etiquetas antes del resampling: Counter({1: 154, 2: 26})
-Distribucion de etiquetas despues del resampling: Counter({2: 153, 1: 137})
+Distribucion de etiquetas despues del resampling: Counter({2: 145, 1: 133})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.80 con una desviacion estandar de 0.29
-F1-score media: 0.53 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
-AUC del conjunto de prueba: 0.64
+Precision media: 0.81 con una desviacion estandar de 0.26
+F1-score media: 0.56 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
+AUC del conjunto de prueba: 0.65
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.78 con una desviacion estandar de 0.30
-F1-score media: 0.59 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
-AUC del conjunto de prueba: 0.55
+Precision media: 0.87 con una desviacion estandar de 0.25
+F1-score media: 0.61 con una desviacion estandar de 0.46
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.77
+AUC del conjunto de prueba: 0.46
 
 Modelo: GaussianNB
-Precision media: 0.84 con una desviacion estandar de 0.30
-F1-score media: 0.67 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
-AUC del conjunto de prueba: 0.83
+Precision media: 0.88 con una desviacion estandar de 0.25
+F1-score media: 0.69 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
+AUC del conjunto de prueba: 0.80
 
 Modelo: SVC
-Precision media: 0.80 con una desviacion estandar de 0.28
-F1-score media: 0.63 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
+Precision media: 0.84 con una desviacion estandar de 0.27
+F1-score media: 0.64 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
 AUC del conjunto de prueba: 0.66
 
 Modelo: RandomForestClassifier
-Precision media: 0.89 con una desviacion estandar de 0.23
-F1-score media: 0.67 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
-AUC del conjunto de prueba: 0.80
+Precision media: 0.91 con una desviacion estandar de 0.18
+F1-score media: 0.69 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
+AUC del conjunto de prueba: 0.69
 
 Modelo: LogisticRegression
-Precision media: 0.87 con una desviacion estandar de 0.25
-F1-score media: 0.63 con una desviacion estandar de 0.45
+Precision media: 0.87 con una desviacion estandar de 0.26
+F1-score media: 0.64 con una desviacion estandar de 0.45
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
 AUC del conjunto de prueba: 0.27
 
@@ -1948,10 +1948,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.86
 AUC del conjunto de prueba: 0.54
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.55 con una desviacion estandar de 0.27
-F1-score media: 0.38 con una desviacion estandar de 0.35
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.45
-AUC del conjunto de prueba: 0.32
+Precision media: 0.44 con una desviacion estandar de 0.23
+F1-score media: 0.38 con una desviacion estandar de 0.33
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.63
+AUC del conjunto de prueba: 0.25
 
 Modelo: GaussianNB
 Precision media: 0.80 con una desviacion estandar de 0.23
@@ -1966,16 +1966,16 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.72
 AUC del conjunto de prueba: 0.21
 
 Modelo: RandomForestClassifier
-Precision media: 0.65 con una desviacion estandar de 0.26
+Precision media: 0.68 con una desviacion estandar de 0.31
 F1-score media: 0.50 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.44
-AUC del conjunto de prueba: 0.35
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.41
+AUC del conjunto de prueba: 0.19
 
 Modelo: LogisticRegression
 Precision media: 0.66 con una desviacion estandar de 0.25
 F1-score media: 0.49 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.73
-AUC del conjunto de prueba: 0.33
+AUC del conjunto de prueba: 0.32
 
 	- Tecnica de Resampling: EditedNearestNeighbours
 Distribucion de etiquetas antes del resampling: Counter({1: 145, 2: 29})
@@ -1988,10 +1988,10 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
 AUC del conjunto de prueba: 0.62
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.56 con una desviacion estandar de 0.40
-F1-score media: 0.48 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.75
-AUC del conjunto de prueba: 0.65
+Precision media: 0.61 con una desviacion estandar de 0.42
+F1-score media: 0.58 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.83
+AUC del conjunto de prueba: 0.71
 
 Modelo: GaussianNB
 Precision media: 0.77 con una desviacion estandar de 0.32
@@ -2006,15 +2006,15 @@ Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
 AUC del conjunto de prueba: 0.47
 
 Modelo: RandomForestClassifier
-Precision media: 0.70 con una desviacion estandar de 0.40
-F1-score media: 0.71 con una desviacion estandar de 0.40
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.71
-AUC del conjunto de prueba: 0.64
+Precision media: 0.71 con una desviacion estandar de 0.40
+F1-score media: 0.70 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.77
+AUC del conjunto de prueba: 0.65
 
 Modelo: LogisticRegression
-Precision media: 0.66 con una desviacion estandar de 0.29
-F1-score media: 0.63 con una desviacion estandar de 0.39
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.88
+Precision media: 0.67 con una desviacion estandar de 0.30
+F1-score media: 0.63 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.87
 AUC del conjunto de prueba: 0.63
 
 	- Tecnica de Resampling: ADASYN
@@ -2022,157 +2022,157 @@ Distribucion de etiquetas antes del resampling: Counter({1: 145, 2: 29})
 Distribucion de etiquetas despues del resampling: Counter({1: 145, 2: 141})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.68 con una desviacion estandar de 0.29
-F1-score media: 0.37 con una desviacion estandar de 0.39
+Precision media: 0.67 con una desviacion estandar de 0.29
+F1-score media: 0.38 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
 AUC del conjunto de prueba: 0.62
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.78 con una desviacion estandar de 0.33
+Precision media: 0.80 con una desviacion estandar de 0.31
 F1-score media: 0.53 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.72
-AUC del conjunto de prueba: 0.63
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.71
+AUC del conjunto de prueba: 0.79
 
 Modelo: GaussianNB
-Precision media: 0.80 con una desviacion estandar de 0.29
-F1-score media: 0.59 con una desviacion estandar de 0.42
+Precision media: 0.79 con una desviacion estandar de 0.30
+F1-score media: 0.60 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
 AUC del conjunto de prueba: 0.87
 
 Modelo: SVC
-Precision media: 0.66 con una desviacion estandar de 0.32
-F1-score media: 0.50 con una desviacion estandar de 0.40
+Precision media: 0.65 con una desviacion estandar de 0.33
+F1-score media: 0.48 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
 AUC del conjunto de prueba: 0.65
 
 Modelo: RandomForestClassifier
-Precision media: 0.86 con una desviacion estandar de 0.23
-F1-score media: 0.62 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
-AUC del conjunto de prueba: 0.60
+Precision media: 0.87 con una desviacion estandar de 0.22
+F1-score media: 0.62 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
+AUC del conjunto de prueba: 0.85
 
 Modelo: LogisticRegression
-Precision media: 0.81 con una desviacion estandar de 0.24
-F1-score media: 0.55 con una desviacion estandar de 0.41
+Precision media: 0.78 con una desviacion estandar de 0.26
+F1-score media: 0.54 con una desviacion estandar de 0.41
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
-AUC del conjunto de prueba: 0.64
+AUC del conjunto de prueba: 0.65
 
 	- Tecnica de Resampling: SMOTE
 Distribucion de etiquetas antes del resampling: Counter({1: 145, 2: 29})
 Distribucion de etiquetas despues del resampling: Counter({1: 145, 2: 145})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.67 con una desviacion estandar de 0.29
-F1-score media: 0.42 con una desviacion estandar de 0.39
+Precision media: 0.67 con una desviacion estandar de 0.30
+F1-score media: 0.40 con una desviacion estandar de 0.39
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
 AUC del conjunto de prueba: 0.63
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.76 con una desviacion estandar de 0.29
-F1-score media: 0.57 con una desviacion estandar de 0.44
+Precision media: 0.83 con una desviacion estandar de 0.28
+F1-score media: 0.54 con una desviacion estandar de 0.46
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.66
-AUC del conjunto de prueba: 0.43
+AUC del conjunto de prueba: 0.76
 
 Modelo: GaussianNB
-Precision media: 0.82 con una desviacion estandar de 0.24
-F1-score media: 0.62 con una desviacion estandar de 0.42
+Precision media: 0.81 con una desviacion estandar de 0.25
+F1-score media: 0.60 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
-AUC del conjunto de prueba: 0.88
+AUC del conjunto de prueba: 0.91
 
 Modelo: SVC
-Precision media: 0.71 con una desviacion estandar de 0.31
-F1-score media: 0.53 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
-AUC del conjunto de prueba: 0.63
+Precision media: 0.76 con una desviacion estandar de 0.25
+F1-score media: 0.55 con una desviacion estandar de 0.41
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
+AUC del conjunto de prueba: 0.64
 
 Modelo: RandomForestClassifier
-Precision media: 0.88 con una desviacion estandar de 0.23
-F1-score media: 0.65 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.98
+Precision media: 0.85 con una desviacion estandar de 0.26
+F1-score media: 0.63 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.94
 AUC del conjunto de prueba: 0.92
 
 Modelo: LogisticRegression
-Precision media: 0.82 con una desviacion estandar de 0.23
-F1-score media: 0.57 con una desviacion estandar de 0.41
+Precision media: 0.77 con una desviacion estandar de 0.28
+F1-score media: 0.54 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
-AUC del conjunto de prueba: 0.63
+AUC del conjunto de prueba: 0.64
 
 	- Tecnica de Resampling: SMOTETomek
 Distribucion de etiquetas antes del resampling: Counter({1: 145, 2: 29})
 Distribucion de etiquetas despues del resampling: Counter({1: 145, 2: 145})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.65 con una desviacion estandar de 0.28
-F1-score media: 0.40 con una desviacion estandar de 0.40
+Precision media: 0.72 con una desviacion estandar de 0.27
+F1-score media: 0.45 con una desviacion estandar de 0.38
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
 AUC del conjunto de prueba: 0.63
 
 Modelo: DecisionTreeClassifier
 Precision media: 0.77 con una desviacion estandar de 0.32
-F1-score media: 0.56 con una desviacion estandar de 0.45
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.78
-AUC del conjunto de prueba: 0.83
+F1-score media: 0.49 con una desviacion estandar de 0.47
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.80
+AUC del conjunto de prueba: 0.52
 
 Modelo: GaussianNB
-Precision media: 0.77 con una desviacion estandar de 0.28
-F1-score media: 0.60 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
-AUC del conjunto de prueba: 0.90
+Precision media: 0.80 con una desviacion estandar de 0.27
+F1-score media: 0.60 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
+AUC del conjunto de prueba: 0.92
 
 Modelo: SVC
-Precision media: 0.70 con una desviacion estandar de 0.31
-F1-score media: 0.53 con una desviacion estandar de 0.41
+Precision media: 0.72 con una desviacion estandar de 0.31
+F1-score media: 0.56 con una desviacion estandar de 0.40
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
-AUC del conjunto de prueba: 0.64
+AUC del conjunto de prueba: 0.65
 
 Modelo: RandomForestClassifier
-Precision media: 0.85 con una desviacion estandar de 0.23
-F1-score media: 0.63 con una desviacion estandar de 0.43
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
-AUC del conjunto de prueba: 0.96
+Precision media: 0.84 con una desviacion estandar de 0.27
+F1-score media: 0.63 con una desviacion estandar de 0.44
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
+AUC del conjunto de prueba: 0.88
 
 Modelo: LogisticRegression
-Precision media: 0.78 con una desviacion estandar de 0.27
-F1-score media: 0.55 con una desviacion estandar de 0.41
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.90
-AUC del conjunto de prueba: 0.63
+Precision media: 0.79 con una desviacion estandar de 0.27
+F1-score media: 0.57 con una desviacion estandar de 0.40
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.91
+AUC del conjunto de prueba: 0.64
 
 	- Tecnica de Resampling: SMOTEENN
 Distribucion de etiquetas antes del resampling: Counter({1: 145, 2: 29})
-Distribucion de etiquetas despues del resampling: Counter({2: 139, 1: 108})
+Distribucion de etiquetas despues del resampling: Counter({2: 140, 1: 109})
 
 Modelo: KNeighborsClassifier
-Precision media: 0.77 con una desviacion estandar de 0.28
-F1-score media: 0.42 con una desviacion estandar de 0.43
+Precision media: 0.71 con una desviacion estandar de 0.31
+F1-score media: 0.38 con una desviacion estandar de 0.42
 Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
 AUC del conjunto de prueba: 0.61
 
 Modelo: DecisionTreeClassifier
-Precision media: 0.90 con una desviacion estandar de 0.26
-F1-score media: 0.52 con una desviacion estandar de 0.50
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.76
-AUC del conjunto de prueba: 0.82
+Precision media: 0.89 con una desviacion estandar de 0.24
+F1-score media: 0.55 con una desviacion estandar de 0.49
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.78
+AUC del conjunto de prueba: 0.51
 
 Modelo: GaussianNB
-Precision media: 0.82 con una desviacion estandar de 0.28
-F1-score media: 0.53 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.96
-AUC del conjunto de prueba: 0.90
+Precision media: 0.79 con una desviacion estandar de 0.31
+F1-score media: 0.56 con una desviacion estandar de 0.47
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.95
+AUC del conjunto de prueba: 0.85
 
 Modelo: SVC
-Precision media: 0.72 con una desviacion estandar de 0.30
-F1-score media: 0.46 con una desviacion estandar de 0.42
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
-AUC del conjunto de prueba: 0.65
+Precision media: 0.70 con una desviacion estandar de 0.31
+F1-score media: 0.49 con una desviacion estandar de 0.43
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.93
+AUC del conjunto de prueba: 0.64
 
 Modelo: RandomForestClassifier
-Precision media: 0.87 con una desviacion estandar de 0.20
-F1-score media: 0.56 con una desviacion estandar de 0.47
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.97
-AUC del conjunto de prueba: 0.76
+Precision media: 0.78 con una desviacion estandar de 0.32
+F1-score media: 0.57 con una desviacion estandar de 0.45
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.92
+AUC del conjunto de prueba: 0.83
 
 Modelo: LogisticRegression
-Precision media: 0.80 con una desviacion estandar de 0.28
-F1-score media: 0.47 con una desviacion estandar de 0.44
-Evaluacion en conjunto de prueba (F1-score ponderado): 0.85
+Precision media: 0.80 con una desviacion estandar de 0.26
+F1-score media: 0.50 con una desviacion estandar de 0.42
+Evaluacion en conjunto de prueba (F1-score ponderado): 0.89
 AUC del conjunto de prueba: 0.64
