@@ -147,7 +147,7 @@ def apply_angles(df: pd.DataFrame) -> pd.DataFrame:
         ankle_angle_right = calculate_angle(group, 'KneeRight', 'AnkleRight', 'FootRight')
         
         # # Extraer columnas adicionales
-        additional_data = group.iloc[0][['SubjectID', 'GestureLabel', 'GestureName', 'RepetitionNumber', 'CorrectLabel', 'Position']]
+        additional_data = group.iloc[0][['SubjectID', 'RepetitionNumber', 'Position']]
 
         # Almacenar la información en un diccionario
         angles.append({
@@ -194,15 +194,15 @@ def calculos_estadísticos(df:pd.DataFrame) -> pd.DataFrame:
     """
 
     # Agrupa el DataFrame 
-    groups = df.groupby(["SubjectID", "GestureLabel", "RepetitionNumber"])
+    groups = df.groupby(["SubjectID", "RepetitionNumber"])
 
     # Lista para almacenar los datos de salida
     data = []
 
     # Itera sobre cada grupo
-    for (subject_id, gesture_label, repetition_number), group in groups:
+    for (subject_id, repetition_number), group in groups:
         # Selecciona solo las columnas que contienen los ángulos 
-        angles = group.iloc[:, 6:]
+        angles = group.iloc[:, 3:]
 
         # Calcula la media y la desviación estándar para los ángulos
         means = angles.mean()
@@ -211,10 +211,7 @@ def calculos_estadísticos(df:pd.DataFrame) -> pd.DataFrame:
         # Almacena las estadísticas en un diccionario 
         data.append({
             'SubjectID': subject_id,
-            'GestureLabel': gesture_label,
-            'GestureName': group['GestureName'].iloc[0],
             'RepetitionNumber': repetition_number,
-            'CorrectLabel': group['CorrectLabel'].iloc[0],
             'Position': group['Position'].iloc[0],
             'Duration': len(group),  # Duración en número de frames
             'standardDeviation': std_devs,
@@ -230,7 +227,7 @@ def calculos_estadísticos(df:pd.DataFrame) -> pd.DataFrame:
 
     # Convierte la lista de diccionarios en un DataFrame y lo ordena
     df_stats = pd.DataFrame(data)
-    df_stats = df_stats.sort_values(['SubjectID', 'GestureLabel', 'RepetitionNumber'])
+    df_stats = df_stats.sort_values(['RepetitionNumber'])
 
     return df_stats
 
@@ -257,3 +254,5 @@ def formatear_columnas(columna:pd.Series, nombre_columna:str) -> pd.DataFrame:
         data[key + '_' + nombre_columna] = columna.apply(lambda x: x.get(key))
     return pd.DataFrame(data)
 
+def mas_comun(lista:list):
+    return max(set(lista), key = lista.count)
