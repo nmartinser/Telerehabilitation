@@ -255,4 +255,5 @@ def formatear_columnas(columna:pd.Series, nombre_columna:str) -> pd.DataFrame:
     return pd.DataFrame(data)
 
 def mas_comun(lista:list):
+    lista = lista.tolist()
     return max(set(lista), key = lista.count)

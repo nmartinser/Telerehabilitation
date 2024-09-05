@@ -4,7 +4,7 @@
 import pandas as pd # para manejar dataframes
 import  Notebooks.functions as functions
 import joblib 
-import os
+
 
 # ------ Procesar los archivos de video ----------------------
 # directorio donde se encuentran los datos
@@ -47,7 +47,11 @@ print(df_stats.head())
 
 # ------Preparar el dataset-------
 # pasar variable obj a numeric
-df_stats = df_stats.apply(pd.to_numeric, errors='ignore')
+numeric_cols = df_stats.select_dtypes(include=['number']).columns
+
+# Convert those numeric columns to actual numeric types, ignoring any errors for non-numeric data
+df_stats[numeric_cols] = df_stats[numeric_cols].apply(pd.to_numeric, errors='coerce')
+
 
 # -------- Fase 1: Predecir el gesto -------
 print('Prediciendo el gesto...')
@@ -67,25 +71,42 @@ gesture_mapping = {
     8: 'STR'
 }
 
-gesture_name = gesture_mapping.get(gesture_label, 'Error en la predición')
-print(f'Está realizando el gesto {gesture_name}')
+gesture_name_mapping = {
+    0: 'Flexión del codo izquierdo',
+    1: 'Flexión del codo derecho',
+    2: 'Flexión del hombro izquierdo',
+    3: 'Flexión del hombro derecho',
+    4: 'Abduccióndel hombro izquierdo',
+    5: 'Abduccióndelhombro derecho',
+    6: 'Elevación frontal del hombro',
+    7: 'Toque lateral izquierdo',
+    8: 'Toque lateral derecho'
+}
+
+gesture_short_name = gesture_mapping.get(gesture_label, 'Error en la predición')
+gesture_name = gesture_name_mapping.get(gesture_label, 'Error en la predición')
+
+print(f'Está realizando el gesto: {gesture_name}')
 
 
 # ---- Fase 2: Clasificación de la ejecución del movimiento ------
 print('Prediciendo si está bien ejecutado...')
 
 # Busca el archivo correspondiente al gesto predicho
-modelo_gesto_path = f'./Resultados/modelo_{gesture_name}.sav'
+modelo_gesto_path = f'./Resultados/modelo_{gesture_short_name}.sav'
 
 correct_mapping = {
-    1: 'corresto',
-    2: 'incorrecto'
+    1: 'correcta',
+    2: 'incorrecta'
 }
 
-modelo_gesto = joblib.load(modelo_gesto_path)
-correctLabel = modelo_gesto.predict(df_stats)
+best_pipeline, expected_columns = joblib.load(modelo_gesto_path)
+df_stats = df_stats.reindex(columns=expected_columns)
+
+correctLabel = best_pipeline.predict(df_stats)
+
 correctLabel = functions.mas_comun(correctLabel)
-correct_name = gesture_mapping.get(correctLabel, 'Error en la predición')
+correct_name = correct_mapping.get(correctLabel, 'Error en la predición')
 print(f'El gesto se ha ejecutado de forma: {correct_name}')
 
 
