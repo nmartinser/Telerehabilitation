@@ -303,7 +303,7 @@ def repetition_graph(df:pd.DataFrame, keyPoint:str, movementAxis:str) -> plt.Fig
     # Customize the plot
     plt.ylabel(f"Posición en {movementAxis}")
     plt.xlabel("Frame number")
-    plt.title(f"Movimiento del {keyPoint} ")
+    plt.title(f"Movimiento de {keyPoint} ")
     
     return fig
 
