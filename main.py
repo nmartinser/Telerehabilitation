@@ -8,7 +8,7 @@ import joblib
 
 # ------ Procesar los archivos de video ----------------------
 # directorio donde se encuentran los datos
-directory = './dataset/SkeletonData/PruebaFinal' 
+directory = './dataset/PruebaFinal' 
 
 columnas = ['SubjectID', 'DateID', 'GestureLabel', 'RepetitionNumber', 'CorrectLabel', 'Position',
             'JointName', 'TrackedStatus', '3D_X', '3D_Y', '3D_Z', '2D_X', '2D_Y']
@@ -76,8 +76,8 @@ gesture_name_mapping = {
     1: 'Flexión del codo derecho',
     2: 'Flexión del hombro izquierdo',
     3: 'Flexión del hombro derecho',
-    4: 'Abduccióndel hombro izquierdo',
-    5: 'Abduccióndelhombro derecho',
+    4: 'Abducción del hombro izquierdo',
+    5: 'Abducción del hombro derecho',
     6: 'Elevación frontal del hombro',
     7: 'Toque lateral izquierdo',
     8: 'Toque lateral derecho'
@@ -103,12 +103,11 @@ correct_mapping = {
 best_pipeline, expected_columns = joblib.load(modelo_gesto_path)
 df_stats = df_stats.reindex(columns=expected_columns)
 
-correctLabel = best_pipeline.predict(df_stats)
+correct_labels = best_pipeline.predict(df_stats)
 
-correctLabel = functions.mas_comun(correctLabel)
-correct_name = correct_mapping.get(correctLabel, 'Error en la predición')
-print(f'El gesto se ha ejecutado de forma: {correct_name}')
-
-
+for (i,correct_label) in enumerate(correct_labels):
+    correct_name = correct_mapping.get(correct_label, 'Error en la predición')
+    repetition_number = df_stats['RepetitionNumber'][i]
+    print(f'La repetición {repetition_number} se ha ejecutado de forma: {correct_name}')
 
 
