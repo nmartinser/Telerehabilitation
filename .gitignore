@@ -1,4 +1,5 @@
 # no incluir la carpeta con los datos
-dataset
+dataset/SkeletonData
+dataset/readme.txt
 Resultados/raw_pacientes.csv
 Resultados/angles.csv
