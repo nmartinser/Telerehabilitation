@@ -10,6 +10,8 @@ import seaborn as sns
 
 # ------ Procesar los archivos de video ----------------------
 
+
+
 # Función para guardar en el dataframe los datos que aparecen en los nombre de los archivos
 def leer_nombre_archivo(archivo:str) -> list[str]:
     """
@@ -30,44 +32,30 @@ def leer_nombre_archivo(archivo:str) -> list[str]:
     campos = archivo.split('_') # separa los campos por _
     return campos
 
+
 # Función para extraer la información de dentro de los archivos
-def leer_datos_archivo(directorio:str, columnas:list[str]) -> pd.DataFrame:
-    """
-    Compila la información de los archivos en un directorio y los guarda en un DataFrame.
-
-    Parámetros
-    ----------
-    directorio : str
-        Nombre del directorio donde se encuentran los archivos.
-    columnas : list[str]
-        Lista con los nombres de las columnas para el DataFrame de salida.
-
-    Return
-    -------
-    pd.DataFrame
-        DataFrame con todos los datos recopilados de los archivos.
-    """
-    # Crea una lista con los nombres de los archivos en el directorio
-    file_list = os.listdir(directorio)
-
-    # lista para almacenar los datos extraídos
+def leer_datos_archivo(lista_archivos:str, columnas:list[str]) -> pd.DataFrame:
+     # lista para almacenar los datos extraídos
     list_data = []
 
     # Itera sobre cada archivo
-    for file_name in file_list:
+    for uploaded_file in lista_archivos:
          # Extrae los datos del nombre del archivo
-        campos = leer_nombre_archivo(file_name)
+        campos = leer_nombre_archivo(uploaded_file.name)
 
-        with open(os.path.join(directorio, file_name), 'r') as file:
-            for line in file:
-                 # Divide la línea por comas y extrae la información deseada
-                 # omitiendo timestamp y otros datos innecesarios
-                line_data = line.strip().split(',')[3:]
-                # Quita los paréntesis
-                cleaned_data = [item.replace('(', '').replace(')', '') for item in line_data] 
-                # por cada linea de los archivos necesitamos bloques de 7 valores
-                for i in range(0, len(cleaned_data), 7): 
-                    list_data.append(campos + cleaned_data[i:i + 7])
+        # Lee el contenido del archivo y decodifica a string (asume UTF-8)
+        file_content = uploaded_file.read().decode('utf-8')  # Ensure content is decoded to str
+
+        # Itera sobre las líneas del archivo ya decodificado
+        for line in file_content.splitlines():
+            # Divide la línea por comas y extrae la información deseada
+            # omitiendo timestamp y otros datos innecesarios
+            line_data = line.strip().split(',')[3:]
+            # Quita los paréntesis
+            cleaned_data = [item.replace('(', '').replace(')', '') for item in line_data] 
+            # por cada linea de los archivos necesitamos bloques de 7 valores
+            for i in range(0, len(cleaned_data), 7): 
+                list_data.append(campos + cleaned_data[i:i + 7])
     df = pd.DataFrame(list_data, columns=columnas)
     return df
 
@@ -290,9 +278,10 @@ def repetition_graph(df:pd.DataFrame, keyPoint:str, movementAxis:str) -> plt.Fig
 
     groups = df.groupby("RepetitionNumber") # agrupa el dataframe según la repeticion
     for repetition , group in groups:
-        spinBase = group[group['JointName']=='SpineBase'][movementAxis] # cogemos tambien la posicion de la base de la columna para poder normalizar los datos
-        WristRight = group[group['JointName']==keyPoint][movementAxis]
-        normalize_values = WristRight.values - spinBase.values
+        # cogemos tambien la posicion de la base de la columna para poder normalizar los datos
+        spinBase = group[group['JointName']=='SpineBase'][movementAxis]
+        KeyPoint = group[group['JointName']==keyPoint][movementAxis]
+        normalize_values = KeyPoint.values - spinBase.values
         
         normalized_df = pd.DataFrame({
             'Frame': range(len(normalize_values)),
@@ -307,12 +296,12 @@ def repetition_graph(df:pd.DataFrame, keyPoint:str, movementAxis:str) -> plt.Fig
 
 
     # Create a Seaborn lineplot
-    fig = plt.figure(figsize=(8, 5))
+    fig = plt.figure(figsize=(6,4))
     sns.lineplot(data=normalized_df_all, x='Frame', y='Normalized_Position',
-                 hue='RepetitionNumber', legend=True)
+                 hue='RepetitionNumber', legend=False)
 
     # Customize the plot
-    plt.ylabel(f"Posición en el {movementAxis}")
+    plt.ylabel(f"Posición en {movementAxis}")
     plt.xlabel("Frame number")
     plt.title(f"Movimiento del {keyPoint} ")
     
@@ -321,9 +310,9 @@ def repetition_graph(df:pd.DataFrame, keyPoint:str, movementAxis:str) -> plt.Fig
 # Función para crear la gráfica
 def angle_graph(df:pd.DataFrame, angle:str):
   
-    fig = plt.figure(figsize=(8, 5))
+    fig = plt.figure(figsize=(6,4))
     sns.lineplot(data=df, x=df.index, y=angle, hue='RepetitionNumber',
-                    palette='flare', legend=True)
+                    palette='flare', legend=False)
     
     # Configurar etiquetas y título para cada subgráfico
     plt.ylabel(f"Ángulo ({angle})")
