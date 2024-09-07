@@ -112,10 +112,10 @@ if uploaded_files:
 
 
     #-------- Gráficas ------
-    joint_name = st.sidebar.selectbox('Elije el punto del cuerpo que quiere visualizar',
+    joint_name = st.sidebar.selectbox('Elija el punto del cuerpo que quiere visualizar',
                                         df_data['JointName'].unique())
 
-    angle_name = st.sidebar.selectbox('Elije el ángulo que quiere visualizar',
+    angle_name = st.sidebar.selectbox('Elija el ángulo que quiere visualizar',
                                         df_angles.columns[3:])
     
     st.header('Gráficas')
