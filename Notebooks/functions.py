@@ -4,6 +4,8 @@
 import pandas as pd # para manejar dataframes
 import os # para interactuar con el sistema operativo
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 # ------ Procesar los archivos de video ----------------------
@@ -254,6 +256,86 @@ def formatear_columnas(columna:pd.Series, nombre_columna:str) -> pd.DataFrame:
         data[key + '_' + nombre_columna] = columna.apply(lambda x: x.get(key))
     return pd.DataFrame(data)
 
+# Función para crear la gráfica
+def repetition_graph(df:pd.DataFrame, keyPoint:str, movementAxis:str) -> plt.Figure:
+    """
+    Crea una gráfica en la que se representa la posición de un keypoint en función del tiempo (frame).
+    Cada línea en la gráfica corresponde a una repetición distinta del gesto.
+
+     La función realiza los siguientes pasos:
+    1. Agrupa el DataFrame por el número de repetición (`RepetitionNumber`). Esto permite analizar
+        cada repetición de manera individual.
+    2. Itera a través de cada grupo (cada repetición). Dentro de cada grupo:
+        - Extrae las posiciones del keypoint especificado (`keyPoint`) y de la base de la columna
+        (`SpineBase`) en el eje de movimiento (`movementAxis`).
+        - Normaliza las posiciones del keypoint restando las posiciones correspondientes de la base
+        de la columna (`SpineBase`). Esto ajusta las posiciones del keypoint para centrarlas en
+        relación con la base de la columna.
+        - Grafica las posiciones normalizadas del keypoint a lo largo de los frames de la repetición.
+    3. Configura las etiquetas del eje y y del eje x, así como los límites del eje y de la gráfica
+    para mejorar la visualización.
+
+    Parámetros
+    --------
+    df : DataFrame
+        Datos de los keypoints, que debe incluir las columnas 'RepetitionNumber', 
+               'JointName' y el eje de movimiento especificado.
+    keyPoint : str
+        Nombre del keypoint cuya posición se desea visualizar.
+    movementAxis : str
+        El eje del movimiento a analizar, puede ser '3D_X', '3D_Y', '3D_Z', '2D_X', o '2D_Y'.
+    """
+    df = df.apply(pd.to_numeric, errors='ignore')
+    normalized_data = []
+
+    groups = df.groupby("RepetitionNumber") # agrupa el dataframe según la repeticion
+    for repetition , group in groups:
+        spinBase = group[group['JointName']=='SpineBase'][movementAxis] # cogemos tambien la posicion de la base de la columna para poder normalizar los datos
+        WristRight = group[group['JointName']==keyPoint][movementAxis]
+        normalize_values = WristRight.values - spinBase.values
+        
+        normalized_df = pd.DataFrame({
+            'Frame': range(len(normalize_values)),
+            'Normalized_Position': normalize_values,
+            'RepetitionNumber': repetition
+        })
+        # Append to the list of normalized data
+        normalized_data.append(normalized_df)
+
+    # Concatenate all normalized data into a single DataFrame for plotting
+    normalized_df_all = pd.concat(normalized_data)
+
+
+    # Create a Seaborn lineplot
+    fig = plt.figure(figsize=(8, 5))
+    sns.lineplot(data=normalized_df_all, x='Frame', y='Normalized_Position',
+                 hue='RepetitionNumber', legend=True)
+
+    # Customize the plot
+    plt.ylabel(f"Posición en el {movementAxis}")
+    plt.xlabel("Frame number")
+    plt.title(f"Movimiento del {keyPoint} ")
+    
+    return fig
+
+# Función para crear la gráfica
+def angle_graph(df:pd.DataFrame, angle:str):
+  
+    fig = plt.figure(figsize=(8, 5))
+    sns.lineplot(data=df, x=df.index, y=angle, hue='RepetitionNumber',
+                    palette='flare', legend=True)
+    
+    # Configurar etiquetas y título para cada subgráfico
+    plt.ylabel(f"Ángulo ({angle})")
+    plt.xlabel("Frame number")
+    plt.title(f"Movimiento del ángulo {angle} por repetición")
+    
+    return fig
+
+
+
+
+# Seleccionar el más común de una lista
 def mas_comun(lista:list):
     lista = lista.tolist()
     return max(set(lista), key = lista.count)
