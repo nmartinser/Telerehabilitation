@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import  Notebooks.functions as functions
 import joblib
-import time
 
 
 # Titulo para web
@@ -131,7 +130,3 @@ if uploaded_files:
             st.markdown("**Representación de un ángulo por repetición**")
             fig_angles = functions.angle_graph(df_angles, angle_name)
             st.pyplot(fig_angles)
-
-
-
-   
