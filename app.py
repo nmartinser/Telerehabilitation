@@ -6,7 +6,8 @@ import joblib
 
 # Titulo para web
 st.title('Tele-rehabilitacion')
-st.markdown('Esta app sirve para monitorear nueve ejercicios de rehabililtación')
+st.markdown('Esta aplicación permite monitorear y evaluar la ejecución de nueve ejegesrcicios de rehabilitación mediante el análisis de datos de video.')
+st.markdown('Para comenzar, carga los archivos de datos correspondientes a un ejercicio desde el menú desplegable.')
 st.image("./Imagenes/gestures.png")
 st.sidebar.title("Datos")
 uploaded_files = st.sidebar.file_uploader('Sube aquí tu ejercicio', accept_multiple_files=True,
@@ -19,15 +20,16 @@ columnas = ['SubjectID', 'DateID', 'GestureLabel', 'RepetitionNumber', 'CorrectL
             'JointName', 'TrackedStatus', '3D_X', '3D_Y', '3D_Z', '2D_X', '2D_Y']
 
 if uploaded_files:
-    with st.spinner('Cargando los datos, calculando ángulos ...'):
+    with st.spinner('Cargando los datos ...'):
         #----- Cargar los datos y preprocesar --------
         df_data = functions.leer_datos_archivo(uploaded_files, columnas)
 
         df_data.drop(['DateID','GestureLabel', 'CorrectLabel', 'TrackedStatus', '2D_X', '2D_Y'], axis=1,
                     inplace=True)
-
+    with st.spinner('Calculando ángulos ...'):
         df_angles = functions.apply_angles(df_data)
 
+    with st.spinner('Calculando estadísticas ...'):
         df_stats = functions.calculos_estadísticos(df_angles)
 
         columnas = ['standardDeviation', 'Maximum', 'Minimum', 'Mean', 'Range',
