@@ -22,7 +22,10 @@ Para acceder a la aplicación web, haz clic en el siguiente enlace: [Tele-Rehabi
 ## 📁 Descripción del repositorio
 
 ### 📓 Notebooks
-En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los siguientes archivos:
+
+Esta sección contiene los notebooks de Jupyter (.ipynb) utilizados para el procesamiento de datos y la creación de modelos de clasificación, así como un archivo adicional *function.py* que incluye funciones utilizadas tanto por los notebooks como por el programa principal *app.py*.
+
+A continuación se describen los notebooks:
 
 <details>
 <summary>1. Procesar los datos de los videos</summary>
@@ -53,8 +56,9 @@ En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los si
   _ Los resultados detallados del ajuste de modelos tras aplicar varias técnica de balanceo de datos se almacenan en el archivo *Results_imblearn.txt* \
   _ Nueve archivos *.sav*, uno para cada gesto, que almacenan el pipeline completo de clasificación entrenado, incluyendo tanto el preprocesamiento como el modelo final.
   
-
 </details>
+
+
 
 <p align="center">
   <img src="/Imagenes/esquema_modelos.png" width="600" title="Esquema fases">
