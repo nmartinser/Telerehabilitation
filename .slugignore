@@ -1,5 +1,7 @@
 .ipynb
-Imagenes/
+Imagenes/ASR_movement.png
+Imagenes/FSL_movement.png
+Imagenes/esquema_modelos.png
 main.py
 README.md
 node_modules/
