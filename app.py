@@ -20,16 +20,15 @@ columnas = ['SubjectID', 'DateID', 'GestureLabel', 'RepetitionNumber', 'CorrectL
             'JointName', 'TrackedStatus', '3D_X', '3D_Y', '3D_Z', '2D_X', '2D_Y']
 
 if uploaded_files:
-    with st.spinner('Cargando los datos ...'):
+    with st.spinner('Cargando los datos, calculando ángulos...'):
         #----- Cargar los datos y preprocesar --------
         df_data = functions.leer_datos_archivo(uploaded_files, columnas)
 
         df_data.drop(['DateID','GestureLabel', 'CorrectLabel', 'TrackedStatus', '2D_X', '2D_Y'], axis=1,
                     inplace=True)
-    with st.spinner('Calculando ángulos ...'):
+
         df_angles = functions.apply_angles(df_data)
 
-    with st.spinner('Calculando estadísticas ...'):
         df_stats = functions.calculos_estadísticos(df_angles)
 
         columnas = ['standardDeviation', 'Maximum', 'Minimum', 'Mean', 'Range',
