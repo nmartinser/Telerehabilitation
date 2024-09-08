@@ -2,15 +2,12 @@
 
 # importar librerias necesarias
 import pandas as pd # para manejar dataframes
-import os # para interactuar con el sistema operativo
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 
 # ------ Procesar los archivos de video ----------------------
-
-
 
 # Función para guardar en el dataframe los datos que aparecen en los nombre de los archivos
 def leer_nombre_archivo(archivo:str) -> list[str]:
@@ -34,7 +31,22 @@ def leer_nombre_archivo(archivo:str) -> list[str]:
 
 
 # Función para extraer la información de dentro de los archivos
-def leer_datos_archivo(lista_archivos:str, columnas:list[str]) -> pd.DataFrame:
+def leer_datos_archivo(lista_archivos:list, columnas:list[str]) -> pd.DataFrame:
+    """
+    Compila la información de los archivos subidos a la app y los guarda en un DataFrame.
+
+    Parámetros
+    ----------
+    lista_archivos : list[UpleadedFile]
+        Lista de archivos subidos.
+    columnas : list[str]
+        Lista con los nombres de las columnas para el DataFrame de salida.
+
+    Return
+    -------
+    pd.DataFrame
+        DataFrame con todos los datos recopilados de los archivos.
+    """
      # lista para almacenar los datos extraídos
     list_data = []
 
@@ -217,6 +229,7 @@ def calculos_estadísticos(df:pd.DataFrame) -> pd.DataFrame:
 
     # Convierte la lista de diccionarios en un DataFrame y lo ordena
     df_stats = pd.DataFrame(data)
+    df_stats['RepetitionNumber'] = pd.to_numeric(df_stats['RepetitionNumber'], errors='coerce')
     df_stats = df_stats.sort_values(['RepetitionNumber'])
 
     return df_stats
@@ -298,7 +311,7 @@ def repetition_graph(df:pd.DataFrame, keyPoint:str, movementAxis:str) -> plt.Fig
     # Create a Seaborn lineplot
     fig = plt.figure(figsize=(6,4))
     sns.lineplot(data=normalized_df_all, x='Frame', y='Normalized_Position',
-                 hue='RepetitionNumber', legend=False)
+                 hue='RepetitionNumber', palette='viridis', legend=False)
 
     # Customize the plot
     plt.ylabel(f"Posición en {movementAxis}")
@@ -312,16 +325,14 @@ def angle_graph(df:pd.DataFrame, angle:str):
   
     fig = plt.figure(figsize=(6,4))
     sns.lineplot(data=df, x=df.index, y=angle, hue='RepetitionNumber',
-                    palette='flare', legend=False)
+                    palette='viridis', legend=False)
     
     # Configurar etiquetas y título para cada subgráfico
     plt.ylabel(f"Ángulo ({angle})")
     plt.xlabel("Frame number")
-    plt.title(f"Movimiento del ángulo {angle} por repetición")
+    plt.title(f"Movimiento del ángulo {angle}")
     
     return fig
-
-
 
 
 # Seleccionar el más común de una lista
