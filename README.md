@@ -6,6 +6,18 @@ Este proyecto se centra en el desarrollo de modelos de aprendizaje automático p
   <img src="/Imagenes/gestures.png" width="400" title="Ejercicios rehabilitación">
 </p>
 
+## 📚 Tutorial
+
+Para acceder a la aplicación web, haz clic en el siguiente enlace: [Tele-Rehabilitacion App](https://tele-rehabilitation-app-0bccfa1c526d.herokuapp.com/)
+
+**Pasos para usar la aplicación:**
+
+1. En la carpeta dataset de este repositorio, encontrarás los datos de los videos de un paciente, organizados por gestos. Cada subcarpeta contiene archivos .txt que corresponden a las repeticiones de un gesto específico.
+
+2. Para usar la aplicación, descarga una de estas subcarpetas y carga los archivos .txt.
+
+3. Una vez dentro de la aplicación, verás un menú desplegable donde puedes cargar los datos de los videos correspondientes a un movimiento.
+
 
 ## 📁 Descripción del repositorio
 
@@ -15,7 +27,7 @@ En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los si
 <details>
 <summary>1. Procesar los datos de los videos</summary>
   
-* Descripción: Este notebook procesa archivos de datos de video en formato crudo, extrayendo información esencial sobre cada grabación, como la ID del sujeto, el número de repetición, la precisión del gesto, y la posición de los puntos clave del cuerpo. Seguidamente calcula el ángulo entre disintos puntos del cuepro, y por último se realizan cálculos estadísticos ((mínimo, máximo, desviación estándar, media, etc.) sobre los ángulos.  
+* Descripción: Este notebook procesa archivos de datos de video en formato crudo, extrayendo información esencial sobre cada grabación, como la ID del sujeto, el número de repetición, la precisión del gesto, y la posición de los puntos clave del cuerpo. Seguidamente calcula el ángulo entre disintos puntos del cuepro, y por último se realizan cálculos estadísticos (mínimo, máximo, desviación estándar, media, etc.) sobre los ángulos.  
 * Salida: Genera tres archivos CSV:\
   _ *raw_pacientes.csv*: Contiene información detallada sobre cada grabación.\
   _ *angles.csv*: Incluye ángulos calculados entre keypoints.\
@@ -48,9 +60,19 @@ En esta carpeta se encuentran los notebooks de jupyter (.ipynb). Contiene los si
   <img src="/Imagenes/esquema_modelos.png" width="600" title="Esquema fases">
 </p>
 
+### dataset
+
+Esta carpeta contiene los datos de un paciente, organizados en subcarpetas separadas para cada gesto registrado durante las sesiones de telerehabilitación. Dentro de cada subcarpeta, se encuentra un archivo .txt por cada repetición, que almacena los datos extraídos de los videos.
+
 ### 📋 Resultados
-Aquí es donde el código guarda los archivos intermediarios y los resultados finales generados durante el procesamiento y análisis.
+Aquí se almacenan los archivos intermedios y resultados finales generados durante el procesamiento de datos y el entrenamiento de los modelos.
 
+### ⚙️ Archivos de configuración
 
+* *app.py*: programa principal de la aplicación.
+ 
+* *.gitignore* y *.slugignore*: listas de archivos y carpetas que deben ser ignorados por el control de versiones o el despliegue.
+
+* *setup.sh*, *Procfile* y *requirements.txt*: archivos necesarios para la instalación y despliegue de la aplicación.
 
 
