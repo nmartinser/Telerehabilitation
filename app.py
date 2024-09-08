@@ -102,7 +102,7 @@ if uploaded_files:
 
         for i,correct_label in enumerate(correct_labels):
             correct_name = correct_mapping.get(correct_label, 'Error en la predición')
-            repetition_number = df_stats['RepetitionNumber'][i]
+            repetition_number = df_stats['RepetitionNumber'].iloc[i]
 
             col_idx = i // label_per_column
             if correct_label==1:
