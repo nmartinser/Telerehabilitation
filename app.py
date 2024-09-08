@@ -94,6 +94,8 @@ if uploaded_files:
 
         best_pipeline, expected_columns = joblib.load(modelo_gesto_path)
         df_stats = df_stats.reindex(columns=expected_columns)
+        df_stats['RepetitionNumber'] = pd.to_numeric(df_stats['RepetitionNumber'], errors='coerce')
+        df_stats = df_stats.sort_values(['RepetitionNumber'])
         correct_labels = best_pipeline.predict(df_stats)
 
         label_per_column = len(correct_labels) // 2 + (len(correct_labels) % 2 > 0)
