@@ -3,3 +3,10 @@ dataset/SkeletonData
 dataset/readme.txt
 Resultados/raw_pacientes.csv
 Resultados/angles.csv
+.gitignore
+.slugignore
+app.py
+Procfile
+setup.sh
+Notebooks/fase_1.ipynb
+Notebooks/fase_2.ipynb
