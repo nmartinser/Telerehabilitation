@@ -1,8 +1,0 @@
-*.ipynb
-Imagenes/esquema_modelos.png
-main.py
-README.md
-dataset
-node_modules/
-*.log
-*.tmp
