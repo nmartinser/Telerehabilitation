@@ -3,7 +3,3 @@ dataset/SkeletonData
 dataset/readme.txt
 Resultados/raw_pacientes.csv
 Resultados/angles.csv
-.slugignore
-app.py
-Procfile
-setup.sh
